@@ -1,0 +1,22 @@
+{
+  "name": "foundation",
+  "version": "1.0.0",
+  "description": "foundation theme",
+  "scripts": {
+    "build": "node ./node_modules/sass/sass.js ./scss:./css",
+    "watch": "node ./node_modules/sass/sass.js ./scss:./css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnysunny77/foundationtemplate"
+  },
+  "author": "D.C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnysunny77/foundationtemplate/issues"
+  },
+  "homepage": "https://github.com/sunnysunny77/foundationtemplate#readme",
+  "dependencies": {
+    "sass": "latest"
+  }
+}

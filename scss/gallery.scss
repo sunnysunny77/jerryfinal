@@ -1,0 +1,25 @@
+@import "variables";
+
+#fixed-img {
+  background-image: url("https://via.placeholder.com/600x400");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 12.5% 0 12.5% 0;
+@include large_and_up {
+  background-image: url("https://via.placeholder.com/994x400");
+}
+
+}
+
+.gallery {
+  div {
+    background-image: url("https://via.placeholder.com/500x500");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 25% 0;
+  }
+}
+
+@import "template/styles";
