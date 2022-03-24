@@ -1,0 +1,31 @@
+.top-bar {
+    background-color: $color4;
+    ul {
+        @extend .top-bar;
+        li a {
+            color: $white;
+            &:hover,
+            &:focus {
+                color: $color3;
+            }
+        }
+    }
+}
+
+.title-bar {
+    @extend .top-bar;
+    .title-bar-title {
+        color: $white;
+    }
+    .menu-icon {
+        @extend .title-bar-title;
+    }
+}
+
+#logo {
+    background-image: url(../images/template/logo.svg);
+    display: inline-block;
+    height: 100px;
+    width: 235px;
+    background-repeat: no-repeat;
+}
