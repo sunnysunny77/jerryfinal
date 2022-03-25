@@ -1,14 +1,15 @@
 footer {
     padding-top: 15px;
     background-color: $color2;
-    li {
-        color: $white
-    }
-    a {
-        @extend li;
-        &:hover,
-        &:focus {
-            color: $color3;
+    .menu li, .inline-list {
+        color: $white;
+        a {
+            @extend li;
+            @include box(null, 0.5rem);
+            &:hover,
+            &:focus {
+                color: $color3;
+            }
         }
     }
 }

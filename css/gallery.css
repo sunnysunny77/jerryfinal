@@ -65,13 +65,14 @@ h5 {
   color: #504336;
 }
 
-.top-bar, .title-bar, .title-bar ul, .top-bar ul {
+.top-bar, .title-bar, .title-bar .top-bar-left ul, .title-bar .top-bar-right ul, .top-bar .top-bar-left ul, .top-bar .top-bar-right ul {
   background-color: #4B7C6A;
 }
-.top-bar ul li a, .top-bar ul footer a a, footer .top-bar ul a a, .title-bar ul li a, .title-bar ul footer a a, footer .title-bar ul a a {
+.top-bar .top-bar-left ul li a, footer .menu li .top-bar .top-bar-left ul a a, .top-bar .top-bar-left ul footer .inline-list a a, footer .inline-list .top-bar .top-bar-left ul a a, .title-bar .top-bar-left ul li a, footer .menu li .title-bar .top-bar-left ul a a, .title-bar .top-bar-left ul footer .inline-list a a, footer .inline-list .title-bar .top-bar-left ul a a, .top-bar .top-bar-right ul li a, footer .menu li .top-bar .top-bar-right ul a a, .top-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .top-bar .top-bar-right ul a a, .title-bar .top-bar-right ul li a, footer .menu li .title-bar .top-bar-right ul a a, .title-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .title-bar .top-bar-right ul a a {
   color: #f8f8ff;
+  padding: 0.5rem;
 }
-.top-bar ul li a:hover, .top-bar ul footer a a:hover, footer .top-bar ul a a:hover, .title-bar ul li a:hover, .title-bar ul footer a a:hover, footer .title-bar ul a a:hover, .top-bar ul li a:focus, .top-bar ul footer a a:focus, footer .top-bar ul a a:focus, .title-bar ul li a:focus, .title-bar ul footer a a:focus, footer .title-bar ul a a:focus {
+.top-bar .top-bar-left ul li a:hover, footer .menu li .top-bar .top-bar-left ul a a:hover, .top-bar .top-bar-left ul footer .inline-list a a:hover, footer .inline-list .top-bar .top-bar-left ul a a:hover, .title-bar .top-bar-left ul li a:hover, footer .menu li .title-bar .top-bar-left ul a a:hover, .title-bar .top-bar-left ul footer .inline-list a a:hover, footer .inline-list .title-bar .top-bar-left ul a a:hover, .top-bar .top-bar-left ul li a:focus, footer .menu li .top-bar .top-bar-left ul a a:focus, .top-bar .top-bar-left ul footer .inline-list a a:focus, footer .inline-list .top-bar .top-bar-left ul a a:focus, .title-bar .top-bar-left ul li a:focus, footer .menu li .title-bar .top-bar-left ul a a:focus, .title-bar .top-bar-left ul footer .inline-list a a:focus, footer .inline-list .title-bar .top-bar-left ul a a:focus, .top-bar .top-bar-right ul li a:hover, footer .menu li .top-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .top-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul li a:hover, footer .menu li .title-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .title-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul li a:focus, footer .menu li .top-bar .top-bar-right ul a a:focus, .top-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .top-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul li a:focus, footer .menu li .title-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .title-bar .top-bar-right ul a a:focus {
   color: #e1ca6f;
 }
 
@@ -90,10 +91,13 @@ footer {
   padding-top: 15px;
   background-color: #566CAE;
 }
-footer li, footer a {
+footer .menu li, footer .menu li a, footer .menu .inline-list a, footer .inline-list .menu a, footer .inline-list {
   color: #f8f8ff;
 }
-footer a:hover, footer a:focus {
+footer .menu li a, footer .menu .inline-list a a, footer .inline-list .menu a a, footer .inline-list a {
+  padding: 0.5rem;
+}
+footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, footer .inline-list a:focus {
   color: #e1ca6f;
 }
 

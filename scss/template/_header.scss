@@ -1,12 +1,15 @@
 .top-bar {
     background-color: $color4;
-    ul {
-        @extend .top-bar;
-        li a {
-            color: $white;
-            &:hover,
-            &:focus {
-                color: $color3;
+    .top-bar-left, .top-bar-right {
+        ul {
+            @extend .top-bar;
+            li a {
+                color: $white;
+                @include box(null, 0.5rem);
+                &:hover,
+                &:focus {
+                    color: $color3;
+                }
             }
         }
     }
