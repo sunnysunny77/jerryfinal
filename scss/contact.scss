@@ -6,7 +6,7 @@
 }
 
 .tabs {
-    background: $tansparent;
+    background: $transparent;
     li a {
         @include box(null, 1%);
         h3 {

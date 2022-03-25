@@ -94,4 +94,38 @@ footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, f
   color: #e1ca6f;
 }
 
+@media screen and (min-width: 40em) {
+  #stick-1 {
+    padding: 0 1rem 0 0;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  #stick-2 {
+    padding: 0 0 0 1rem;
+  }
+}
+
+.card {
+  background-color: transparent;
+}
+.card .card-divider {
+  background-color: rgba(138, 138, 138, 0.1);
+  font-size: larger;
+  color: #4E7F3D;
+}
+.card img {
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width: 40em) {
+  .card img {
+    width: 64.838%;
+    margin: 1.5rem auto auto auto;
+  }
+}
+.card h3 {
+  font-size: 19.2px;
+}
+
 /*# sourceMappingURL=about.css.map */
