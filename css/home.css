@@ -1,12 +1,13 @@
 @media screen and (min-width: 40em) {
   #orbit-heading {
-    width: 95.5%;
+    padding: 0 1rem;
     margin: 50px auto 1rem auto;
   }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 1200px) {
   #orbit-heading {
-    width: 65.5%;
+    width: 1200px;
+    padding: 0 1rem;
     margin: 50px auto 1rem auto;
   }
 }
