@@ -89,10 +89,10 @@
 }
 #main .tabs-content .menu a {
   margin: 0;
-  padding: 0 0.4rem;
+  padding: 0.5rem 0.4rem;
 }
 #main .tabs-content .menu ~ p {
-  margin: 1rem 0 0 0;
+  margin: 0.5rem 0 0 0;
 }
 
 .gallery div {
