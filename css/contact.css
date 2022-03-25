@@ -8,7 +8,10 @@
 .tabs-content .button {
   margin: 0;
   color: #2b241d;
-  background-color: rgba(75, 124, 106, 0.75);
+  background-color: rgba(75, 124, 106, 0.5);
+}
+.tabs-content .button:hover, .tabs-content .button:focus {
+  background-color: rgba(78, 127, 61, 0.5);
 }
 
 /* global */
@@ -22,7 +25,10 @@
 .tabs-content .button {
   margin: 0;
   color: #2b241d;
-  background-color: rgba(75, 124, 106, 0.75);
+  background-color: rgba(75, 124, 106, 0.5);
+}
+.tabs-content .button:hover, .tabs-content .button:focus {
+  background-color: rgba(78, 127, 61, 0.5);
 }
 
 body {

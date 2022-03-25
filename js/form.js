@@ -15,6 +15,7 @@ $(document).ready(function() {
                 setTimeout(function (){
                     res.html("Employment Form");
                     sub.prop( "disabled", false );
+                    form.trigger("reset");
                 }, 5000);
             }
         });
@@ -35,6 +36,7 @@ $(document).ready(function() {
                 setTimeout(function (){
                     res.html("Purchase Form");
                     sub.prop( "disabled", false );
+                    form.trigger("reset");
                 }, 5000);
             }
         });
@@ -55,6 +57,7 @@ $(document).ready(function() {
                 setTimeout(function (){
                     res.html("Enquiry Form");
                     sub.prop( "disabled", false );
+                    form.trigger("reset");
                 }, 5000);
             }
         });
