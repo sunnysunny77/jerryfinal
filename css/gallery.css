@@ -1,3 +1,10 @@
+#main .tabs-content a {
+  color: #4E7F3D;
+}
+#main .tabs-content a:hover, #main .tabs-content a:focus {
+  color: #566CAE;
+}
+
 #fixed-img {
   background-image: url("../images/gallery/fixed-m.png");
   background-size: contain;
@@ -28,11 +35,15 @@
 #fixed-img .menu {
   height: fit-content;
 }
-#fixed-img .menu li:nth-child(1) a, #fixed-img footer .menu li a:nth-child(1) a, footer #fixed-img .menu li a:nth-child(1) a, #fixed-img .menu footer .inline-list a:nth-child(1) a, footer .inline-list #fixed-img .menu a:nth-child(1) a {
-  border-top-left-radius: 5px;
+@media screen and (min-width: 40em) {
+  #fixed-img .menu li:nth-child(1) a, #fixed-img footer .menu li a:nth-child(1) a, footer #fixed-img .menu li a:nth-child(1) a, #fixed-img .menu footer .inline-list a:nth-child(1) a, footer .inline-list #fixed-img .menu a:nth-child(1) a {
+    border-top-left-radius: 5px;
+  }
 }
-#fixed-img .menu li:nth-child(5) a, #fixed-img footer .menu li a:nth-child(5) a, footer #fixed-img .menu li a:nth-child(5) a, #fixed-img .menu footer .inline-list a:nth-child(5) a, footer .inline-list #fixed-img .menu a:nth-child(5) a {
-  border-top-right-radius: 5px;
+@media screen and (min-width: 40em) {
+  #fixed-img .menu li:nth-child(5) a, #fixed-img footer .menu li a:nth-child(5) a, footer #fixed-img .menu li a:nth-child(5) a, #fixed-img .menu footer .inline-list a:nth-child(5) a, footer .inline-list #fixed-img .menu a:nth-child(5) a {
+    border-top-right-radius: 5px;
+  }
 }
 #fixed-img .menu a {
   background-color: #f8f8ff;
@@ -42,12 +53,36 @@
 #fixed-img .menu a h3 {
   margin: 0;
   padding: 0;
+  font-size: 21px;
 }
 #fixed-img .tabs-title > a[aria-selected=true] {
-  background-color: rgba(43, 36, 29, 0.75);
+  background-color: #2b241d;
 }
 #fixed-img .tabs-title > a[aria-selected=true] h3 {
   color: #f8f8ff;
+}
+
+#main .tabs-content {
+  background-color: transparent;
+  border: none;
+}
+#main .tabs-content .subheader i {
+  font-size: smaller;
+  color: #566CAE;
+}
+#main .tabs-content h5.subheader {
+  color: #6b6b6b;
+}
+#main .tabs-content h4 {
+  color: #2b241d;
+  margin: 1% 0;
+}
+#main .tabs-content .gallery {
+  margin: 1.5% 0;
+  padding: 5%;
+}
+#main .tabs-content .menu {
+  margin: 1rem 0 0 0;
 }
 
 .gallery div {
@@ -55,10 +90,17 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding: 25% 0;
+  padding: 33.37% 0;
 }
 
 /* global */
+#main .tabs-content a {
+  color: #4E7F3D;
+}
+#main .tabs-content a:hover, #main .tabs-content a:focus {
+  color: #566CAE;
+}
+
 body {
   max-width: 1920px;
   margin: auto;

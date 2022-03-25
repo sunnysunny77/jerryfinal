@@ -23,10 +23,14 @@
   .menu {
     @include setbox(null, fit-content, null, null);
     li:nth-child(1) a {
-      border-top-left-radius: 5px;
+      @include medium_and_up {
+        border-top-left-radius: 5px;
+      }
     }
     li:nth-child(5) a {
-      border-top-right-radius: 5px;
+      @include medium_and_up {
+        border-top-right-radius: 5px;
+      }
     }
     a {
       background-color: $white;
@@ -34,13 +38,44 @@
       @include box(0, 0.2rem 1rem);
       h3 {
         @include box();
+        font-size: 21px;
       }
     }
   }
   .tabs-title > a[aria-selected="true"] {
-    background-color: rgba($color1, 0.75);
+    background-color: $color1;
     h3 {
       color: $white;
+    }
+  }
+}
+
+#main {
+  .tabs-content {
+    background-color: $transparent;
+    border: none;
+    .subheader {
+     
+      i {
+        font-size: smaller;
+        color: $color2;
+      }
+    }
+    h5.subheader {
+      color: lightShift($color6);
+    }
+    a {
+      @extend %link;
+    }
+    h4 {
+      color: $color1;
+      @include box(1% 0, null);
+    }
+    .gallery {
+      @include box(1.5% 0, 5%);
+    }
+    .menu {
+      @include box(1rem 0 0 0, null);
     }
   }
 }
@@ -51,7 +86,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    padding: 25% 0;
+    padding: 33.37% 0;
   }
 }
 
