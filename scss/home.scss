@@ -12,12 +12,9 @@
 
 .orbit {
     max-width: 1200px;
-    @include setbox(null, null, null, auto auto 1rem auto);
+    @include setbox(null, null, null, auto);
     .orbit-container img {
         max-height: 700px;
-    }
-    @include medium_and_up() {
-        @include setbox(null, null, null, auto auto 50px auto);
     }
 }
 

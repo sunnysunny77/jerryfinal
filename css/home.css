@@ -12,15 +12,10 @@
 
 .orbit {
   max-width: 1200px;
-  margin: auto auto 1rem auto;
+  margin: auto;
 }
 .orbit .orbit-container img {
   max-height: 700px;
-}
-@media screen and (min-width: 40em) {
-  .orbit {
-    margin: auto auto 50px auto;
-  }
 }
 
 @media screen and (min-width: 40em) {
