@@ -59,4 +59,11 @@
     }
 }
 
+.p-left {
+    @include medium_and_up {
+        box-shadow:  0 -1px rgba($color1 , 0.1);
+        @include box(null, 1rem 0 0 0 );
+    }
+}
+
 @import "template/styles";
