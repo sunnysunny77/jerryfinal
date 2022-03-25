@@ -1,16 +1,28 @@
-#main a {
+.tabs li a h3, .tabs-content li a h3, footer .menu li .tabs a a h3, footer .menu li .tabs-content a a h3, .tabs footer .inline-list a a h3, .tabs-content footer .inline-list a a h3, footer .inline-list .tabs a a h3, footer .inline-list .tabs-content a a h3, #main a {
   color: #4E7F3D;
 }
-#main a:hover, #main a:focus {
+.tabs li a h3:hover, .tabs-content li a h3:hover, footer .menu li .tabs a a h3:hover, footer .menu li .tabs-content a a h3:hover, .tabs footer .inline-list a a h3:hover, .tabs-content footer .inline-list a a h3:hover, footer .inline-list .tabs a a h3:hover, footer .inline-list .tabs-content a a h3:hover, #main a:hover, .tabs li a h3:focus, .tabs-content li a h3:focus, footer .menu li .tabs a a h3:focus, footer .menu li .tabs-content a a h3:focus, .tabs footer .inline-list a a h3:focus, .tabs-content footer .inline-list a a h3:focus, footer .inline-list .tabs a a h3:focus, footer .inline-list .tabs-content a a h3:focus, #main a:focus {
   color: #566CAE;
 }
 
+.tabs-content .button {
+  margin: 0;
+  color: #2b241d;
+  background-color: rgba(75, 124, 106, 0.75);
+}
+
 /* global */
-#main a {
+.tabs li a h3, .tabs-content li a h3, footer .menu li .tabs a a h3, footer .menu li .tabs-content a a h3, .tabs footer .inline-list a a h3, .tabs-content footer .inline-list a a h3, footer .inline-list .tabs a a h3, footer .inline-list .tabs-content a a h3, #main a {
   color: #4E7F3D;
 }
-#main a:hover, #main a:focus {
+.tabs li a h3:hover, .tabs-content li a h3:hover, footer .menu li .tabs a a h3:hover, footer .menu li .tabs-content a a h3:hover, .tabs footer .inline-list a a h3:hover, .tabs-content footer .inline-list a a h3:hover, footer .inline-list .tabs a a h3:hover, footer .inline-list .tabs-content a a h3:hover, #main a:hover, .tabs li a h3:focus, .tabs-content li a h3:focus, footer .menu li .tabs a a h3:focus, footer .menu li .tabs-content a a h3:focus, .tabs footer .inline-list a a h3:focus, .tabs-content footer .inline-list a a h3:focus, footer .inline-list .tabs a a h3:focus, footer .inline-list .tabs-content a a h3:focus, #main a:focus {
   color: #566CAE;
+}
+
+.tabs-content .button {
+  margin: 0;
+  color: #2b241d;
+  background-color: rgba(75, 124, 106, 0.75);
 }
 
 body {
@@ -64,6 +76,10 @@ h5 {
   }
 }
 
+#main i {
+  color: #2b241d;
+}
+
 .top-bar, .title-bar, .title-bar .top-bar-right ul, .title-bar .top-bar-left ul, .top-bar .top-bar-left ul, .top-bar .top-bar-right ul {
   background-color: #4B7C6A;
 }
@@ -104,7 +120,30 @@ footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, f
   color: #e1ca6f;
 }
 
-blockquote, cite {
+.tabs, .tabs-content {
+  background: transparent;
+}
+.tabs li a, .tabs-content li a, .tabs footer .menu li a a, .tabs-content footer .menu li a a, footer .menu li .tabs a a, footer .menu li .tabs-content a a, .tabs footer .inline-list a a, .tabs-content footer .inline-list a a, footer .inline-list .tabs a a, footer .inline-list .tabs-content a a {
+  padding: 1%;
+}
+.tabs li a h3, .tabs-content li a h3, footer .menu li .tabs a a h3, footer .menu li .tabs-content a a h3, .tabs footer .inline-list a a h3, .tabs-content footer .inline-list a a h3, footer .inline-list .tabs a a h3, footer .inline-list .tabs-content a a h3 {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.tabs .tabs-title > a[aria-selected=true], .tabs-content .tabs-title > a[aria-selected=true] {
+  background-color: rgba(138, 138, 138, 0.1);
+}
+
+.tabs-content textarea {
+  resize: none;
+}
+.tabs-content legend {
+  color: #2b241d;
+}
+
+blockquote,
+cite {
   color: #6b6b6b;
 }
 

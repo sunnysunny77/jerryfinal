@@ -1,10 +1,41 @@
-@import 'variables';
-@import 'template/styles';
+@import "variables";
+@import "template/styles";
 
 #main a {
     @extend %link;
 }
 
-blockquote, cite {
+.tabs {
+    background: $tansparent;
+    li a {
+        @include box(null, 1%);
+        h3 {
+            font-size: 16px;
+            @include box();
+            @extend %link;
+        }
+    }
+    .tabs-title>a[aria-selected=true] {
+        background-color: rgba($color6,0.1);
+    }
+}
+
+.tabs-content {
+    @extend .tabs;
+    .button {
+      @extend %button;
+    }
+    textarea {
+        resize: none;
+    }
+    legend {
+        color: $color1;
+
+    }
+}
+
+blockquote,
+cite {
     color: lightShift($color6);
 }
+

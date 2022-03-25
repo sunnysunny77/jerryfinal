@@ -52,6 +52,10 @@ main {
     }
 }
 
+#main i {
+    color: $color1;
+}
+
 @import "./header";
 
 @import "./footer";
