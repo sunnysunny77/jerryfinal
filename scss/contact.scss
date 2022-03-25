@@ -1,2 +1,13 @@
 @import 'variables';
 @import 'template/styles';
+
+#main a {
+    color: $color5;
+    &:hover, &:focus {
+        color: $color2;
+    }
+}
+
+blockquote, cite {
+    color: lightShift($color6);
+}

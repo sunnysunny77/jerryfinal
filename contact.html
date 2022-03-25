@@ -14,6 +14,8 @@
 
     <body>
 
+        <a class="hide" href="#main" accesskey="S"> Skip navigation </a>
+
         <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
 
             <button class="menu-icon" type="button" data-toggle="responsive-menu">
@@ -50,10 +52,10 @@
     
                 <ul class="cell text-center vertical medium-horizontal dropdown menu" data-dropdown-menu>
                 
-                <li class="align-self-middle"><a href="./index.html">HOME</a></li>
-                <li class="align-self-middle"><a href="./contact.html"><h1>CONTACT</h1></a></li>
-                <li class="align-self-middle"><a href="./gallery.html">GALLERY</a></li>
-                <li class="align-self-middle"><a href="./about.html">ABOUT</a></li>
+                <li class="align-self-middle"><a accesskey="1" href="./index.html">HOME</a></li>
+                <li class="align-self-middle"><a accesskey="2" href="./contact.html"><h1>CONTACT</h1></a></li>
+                <li class="align-self-middle"><a accesskey="3" href="./gallery.html">GALLERY</a></li>
+                <li class="align-self-middle"><a accesskey="4" href="./about.html">ABOUT</a></li>
     
                 </ul>
     
@@ -61,7 +63,7 @@
     
         </header>
 
-        <main class="grid-container grid-y">
+        <main id="main" class="grid-container grid-y">
 
             <h2 class="cell text-center medium-text-right">Lorem
                 ipsum</h2>
@@ -95,14 +97,14 @@
                     
                         <fieldset class="grid-x align-center">
                             <legend class="cell">Employment Form</legend>
-                            <lable class="cell large-6">
+                            <label class="cell large-6">
                                 First name
                                 <input autocomplete="on" required type="text" name="first-name" maxlength="20">
-                            </lable>
-                            <lable class="cell large-6">
+                            </label>
+                            <label class="cell large-6">
                                 Last name
                                 <input autocomplete="on" required type="text" name="last-name" maxlength="20">
-                            </lable>
+                            </label>
                             <label required class="cell">
                                 Email           
                                  <input autocomplete="on" required name="email" type="email" maxlength="40">
@@ -111,10 +113,10 @@
                                 Phone           
                                  <input autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts +###############">
                             </label>
-                            <lable class="cell">
+                            <label class="cell">
                                 Position description
                                 <textarea required name="text" rows="7" maxlength="1000"></textarea>
-                            </lable>
+                            </label>
                             <input aria-label="Form submit" type="submit" class="button" value="Submit">
                         </fieldset>
                     </form>

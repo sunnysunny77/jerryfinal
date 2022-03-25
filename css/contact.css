@@ -90,4 +90,15 @@ footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, f
   color: #e1ca6f;
 }
 
+#main a {
+  color: #4E7F3D;
+}
+#main a:hover, #main a:focus {
+  color: #566CAE;
+}
+
+blockquote, cite {
+  color: #6b6b6b;
+}
+
 /*# sourceMappingURL=contact.css.map */
