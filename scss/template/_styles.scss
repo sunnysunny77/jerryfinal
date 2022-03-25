@@ -43,6 +43,15 @@ h5 {
     color: darkShift($color1);
 }
 
+main {
+    //min-height: 72.5vh;
+    @include medium_and_up() {
+        > * {
+            margin-bottom: 50px;
+        }
+    }
+}
+
 @import "./header";
 
 @import "./footer";
