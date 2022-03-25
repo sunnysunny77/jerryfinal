@@ -92,10 +92,10 @@
         
                 <div class="tabs-panel is-active" id="panel1">
     
-                    <form method="post">
+                    <form action="./php/form-1.php" id="form-1" method="post">
                     
                         <fieldset class="grid-x align-center">
-                            <legend class="cell">Employment Form</legend>
+                           <legend id="response-1" class="cell">Employment Form</legend>
                             <label class="cell large-6">
                                 First name
                                 <input autocomplete="on" required type="text" name="first-name" maxlength="20">
@@ -116,7 +116,7 @@
                                 Position description
                                 <textarea required name="text" rows="7" maxlength="1000"></textarea>
                             </label>
-                            <input aria-label="Form submit" type="submit" class="button" value="Submit">
+                            <input id="submit-1" aria-label="Form submit" type="submit" class="button" value="Submit">
                         </fieldset>
                     </form>
 
@@ -124,9 +124,9 @@
 
                 <div class="tabs-panel" id="panel2">
     
-                    <form method="post">
+                    <form action="./php/form-2.php" id="form-2" method="post">
                         <fieldset class="grid-x align-center">
-                            <legend class="cell">Purchase Form</legend>
+                           <legend id="response-2" class="cell">Purchase Form</legend>
                             <lable class="cell large-6">
                                 First name
                                 <input autocomplete="on" required type="text" name="first-name" maxlength="20">
@@ -167,7 +167,7 @@
                                 Purchase details
                                 <textarea required name="text" rows="7" maxlength="1000"></textarea>
                             </lable>
-                            <input aria-label="Form submit" type="submit" class="button" value="Submit">
+                            <input id="submit-2" aria-label="Form submit" type="submit" class="button" value="Submit">       
                         </fieldset>
                     </form>
 
@@ -175,10 +175,9 @@
 
                 <div class="tabs-panel" id="panel3">
            
-
-                    <form method="post">
+                    <form action="./php/form-3.php" id="form-3" method="post">
                         <fieldset class="grid-x align-center">
-                            <legend class="cell">Enquiry Form</legend>
+                           <legend id="response-3" class="cell">Enquiry Form</legend>
                             <lable class="cell large-6">
                                 First name
                                 <input autocomplete="on" required type="text" name="first-name" maxlength="20">
@@ -199,7 +198,7 @@
                                 Enquiry
                                 <textarea required name="text" rows="7" maxlength="1000"></textarea>
                             </lable>
-                            <input aria-label="Form submit" type="submit" class="button" value="Submit">
+                            <input id="submit-3" aria-label="Form submit" type="submit" class="button"></input>   
                         </fieldset>
                     </form>
 
@@ -244,6 +243,7 @@
         <script src="js/vendor/what-input.js"></script>
         <script src="js/vendor/foundation.min.js"></script>
         <script src="js/app.js"></script>
+        <script src="js/form.js"></script>
     </body>
 
 </html>
