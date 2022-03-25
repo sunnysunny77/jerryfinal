@@ -7,9 +7,9 @@
 
 #fixed-img {
   background-image: url("../images/gallery/fixed-m.png");
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 @media screen and (min-width: 40em) {
   #fixed-img {
@@ -25,7 +25,7 @@
   width: fit-content;
   height: fit-content;
   padding: 0 1rem;
-  margin: 1rem auto 200px auto;
+  margin: 1rem auto 180px auto;
 }
 @media screen and (min-width: 40em) {
   #fixed-img h2 {
@@ -48,7 +48,7 @@
 #fixed-img .menu a {
   background-color: #f8f8ff;
   margin: 0;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 0.5rem;
 }
 #fixed-img .menu a h3 {
   margin: 0;
@@ -85,6 +85,13 @@
   padding: 5%;
 }
 #main .tabs-content .menu {
+  margin: 1rem 0 0 0;
+}
+#main .tabs-content .menu a {
+  margin: 0;
+  padding: 0 0.4rem;
+}
+#main .tabs-content .menu ~ p {
   margin: 1rem 0 0 0;
 }
 

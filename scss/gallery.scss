@@ -2,10 +2,9 @@
 
 #fixed-img {
   background-image: url("../images/gallery/fixed-m.png");
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;
-
+  background-position: top;
   @include medium_and_up {
     background-image: url("../images/gallery/fixed.png");
     background-attachment: fixed;
@@ -15,7 +14,7 @@
     background-color: $white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 200px auto);
+    @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 180px auto);
     @include medium_and_up {
       @include setbox(null, null, null, 650px auto auto auto);
     }
@@ -34,8 +33,7 @@
     }
     a {
       background-color: $white;
-
-      @include box(0, 0.2rem 1rem);
+      @include box(0, 0.2rem 0.5rem);
       h3 {
         @include box();
         font-size: 21px;
@@ -77,6 +75,12 @@
     }
     .menu {
       @include box(1rem 0 0 0, null);
+      a {
+        @include box(0, 0 0.4rem);
+      }
+      ~ p {
+        @include box(1rem 0 0 0, null);
+      }
     }
   }
 }
