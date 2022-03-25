@@ -2,8 +2,12 @@
 
 #orbit-heading {
     @include medium_and_up() {
-        @include setbox(94%, null, null, 50px auto 1rem auto);
+        @include setbox(95.5%, null, null, 50px auto 1rem auto);
     }
+    @include large_and_up() {
+        @include setbox(65.5%, null, null, 50px auto 1rem auto);
+    }
+  
 }
 
 .orbit {
