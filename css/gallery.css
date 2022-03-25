@@ -1,14 +1,45 @@
 #fixed-img {
-  background-image: url("https://via.placeholder.com/600x400");
-  background-attachment: fixed;
+  background-image: url("../images/gallery/fixed-m.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 12.5% 0 12.5% 0;
+  background-position: center;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 40em) {
   #fixed-img {
-    background-image: url("https://via.placeholder.com/994x400");
+    background-image: url("../images/gallery/fixed.png");
+    background-attachment: fixed;
+    background-size: cover;
   }
+}
+#fixed-img h2 {
+  background-color: #f8f8ff;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 1rem;
+  margin: 1rem auto 200px auto;
+}
+@media screen and (min-width: 40em) {
+  #fixed-img h2 {
+    margin: 650px auto auto auto;
+  }
+}
+#fixed-img .menu {
+  height: fit-content;
+}
+#fixed-img .menu a {
+  background-color: #f8f8ff;
+  margin: 0;
+  padding: 0.2rem 1rem;
+}
+#fixed-img .menu a h3 {
+  margin: 0;
+  padding: 0;
+}
+#fixed-img .tabs-title > a[aria-selected=true] {
+  background-color: rgba(43, 36, 29, 0.75);
+}
+#fixed-img .tabs-title > a[aria-selected=true] h3 {
+  color: #f8f8ff;
 }
 
 .gallery div {
@@ -48,7 +79,6 @@ h1 {
 h2 {
   margin: 1rem auto;
   color: #504336;
-  background-color: rgba(248, 248, 255, 0.2);
   border-radius: 10px;
   font-style: oblique;
   text-shadow: 0 0 2.5px #2b241d;

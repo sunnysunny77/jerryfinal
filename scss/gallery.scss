@@ -1,15 +1,39 @@
 @import "variables";
 
 #fixed-img {
-  background-image: url("https://via.placeholder.com/600x400");
-  background-attachment: fixed;
+  background-image: url("../images/gallery/fixed-m.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 12.5% 0 12.5% 0;
-@include large_and_up {
-  background-image: url("https://via.placeholder.com/994x400");
-}
-
+  background-position: center;
+ 
+  @include medium_and_up {
+    background-image: url("../images/gallery/fixed.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  h2 {
+    background-color: $white;
+    @include setbox( fit-content,fit-content, 0 1rem, 1rem auto 200px auto);
+    @include medium_and_up { 
+      @include setbox( null,null, null, 650px auto auto auto);
+    }
+  }
+  .menu {
+    @include setbox( null,fit-content, null, null);
+    a {
+      background-color: $white;
+      @include box(0, 0.2rem 1rem);
+      h3 {
+        @include box();
+      }
+    }
+  }
+  .tabs-title > a[aria-selected="true"] {
+    background-color: rgba($color1, 0.75);
+    h3 {
+      color: $white;
+    }
+  }
 }
 
 .gallery {
