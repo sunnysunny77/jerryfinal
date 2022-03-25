@@ -1,6 +1,3 @@
-@import "partials/breakpoints";
-@import "partials/functions&mixins";  
-
 $color1: #2b241d;
 $color2: #566CAE;
 $color3: #e1ca6f;
@@ -9,3 +6,8 @@ $color5: #4E7F3D;
 $color6: #8a8a8a;
 
 $white: #f8f8ff;
+
+
+@import "partials/placeholders";
+@import "partials/breakpoints";
+@import "partials/functions&mixins";  

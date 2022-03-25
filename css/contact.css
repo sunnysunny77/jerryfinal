@@ -1,4 +1,18 @@
+#main a {
+  color: #4E7F3D;
+}
+#main a:hover, #main a:focus {
+  color: #566CAE;
+}
+
 /* global */
+#main a {
+  color: #4E7F3D;
+}
+#main a:hover, #main a:focus {
+  color: #566CAE;
+}
+
 body {
   max-width: 1920px;
   margin: auto;
@@ -88,13 +102,6 @@ footer .menu li a, footer .menu .inline-list a a, footer .inline-list .menu a a,
 }
 footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, footer .inline-list a:focus {
   color: #e1ca6f;
-}
-
-#main a {
-  color: #4E7F3D;
-}
-#main a:hover, #main a:focus {
-  color: #566CAE;
 }
 
 blockquote, cite {

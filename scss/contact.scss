@@ -2,10 +2,7 @@
 @import 'template/styles';
 
 #main a {
-    color: $color5;
-    &:hover, &:focus {
-        color: $color2;
-    }
+    @extend %link;
 }
 
 blockquote, cite {
