@@ -70,6 +70,9 @@
   font-size: smaller;
   color: #566CAE;
 }
+#main .tabs-content .subheader i:hover, #main .tabs-content .subheader i:focus {
+  color: #4E7F3D;
+}
 #main .tabs-content h5.subheader {
   color: #6b6b6b;
 }

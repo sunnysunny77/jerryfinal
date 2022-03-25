@@ -54,11 +54,12 @@
   .tabs-content {
     background-color: $transparent;
     border: none;
-    .subheader {
-     
-      i {
-        font-size: smaller;
-        color: $color2;
+    .subheader i {
+      font-size: smaller;
+      color: $color2;
+      &:hover,
+      &:focus {
+        color: $color5;
       }
     }
     h5.subheader {
