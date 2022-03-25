@@ -13,17 +13,18 @@
     }
 }
 .card {
-    background-color: $transparent;
+    background-color: rgba($color6, 0.1);
+    border-radius: 5px;
     .card-divider {
         background-color: rgba($color6, 0.1);
         font-size: larger;
-        color: $color5;
+        color: $color1;
     }
     img {
         @include setbox(100%, null, null, auto);
-
         @include medium_and_up() {
-            @include setbox(64.838%, null, null, 1.5rem auto auto auto);
+            border-radius: 2px;
+            @include setbox(77.859%, null, null, 1.5rem auto auto auto);
         }
     }
     h3 {
