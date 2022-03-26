@@ -1,10 +1,4 @@
-.tabs-content .menu a {
-  color: #4E7F3D;
-}
-.tabs-content .menu a:hover, .tabs-content .menu a:focus {
-  color: #566CAE;
-}
-
+/* template */
 .tabs-content .menu a {
   color: #4E7F3D;
 }
