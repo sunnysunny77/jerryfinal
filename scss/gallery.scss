@@ -82,6 +82,9 @@
 
 .gallery {
   @include box(1.5% 0, 5%);
+  img {
+    max-height: 500px;
+  }
   div {
     background-image: url("https://via.placeholder.com/500x500");
     background-repeat: no-repeat;

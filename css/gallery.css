@@ -202,6 +202,9 @@ footer .inline-list {
   margin: 1.5% 0;
   padding: 5%;
 }
+.gallery img {
+  max-height: 500px;
+}
 .gallery div {
   background-image: url("https://via.placeholder.com/500x500");
   background-repeat: no-repeat;
