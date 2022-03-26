@@ -109,6 +109,7 @@ footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, f
   color: #e1ca6f;
 }
 
+/* gallery */
 #fixed-img {
   background-image: url("../images/gallery/fixed-m.png");
   background-size: auto;
