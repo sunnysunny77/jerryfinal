@@ -1,7 +1,5 @@
 /* template */
 
-@import "../variables";
-
 body {
     max-width: 1920px;
     @include setbox(null, null, null, auto);

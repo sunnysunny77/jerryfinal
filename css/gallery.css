@@ -1,4 +1,3 @@
-/* template */
 .tabs-content .menu a {
   color: #4E7F3D;
 }
@@ -6,6 +5,7 @@
   color: #566CAE;
 }
 
+/* template */
 body {
   max-width: 1920px;
   margin: auto;
