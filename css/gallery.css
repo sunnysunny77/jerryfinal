@@ -140,6 +140,7 @@ footer .inline-list {
 }
 #fixed-img .menu a {
   background-color: #f8f8ff;
+  outline: none;
   margin: 0;
   padding: 0.2rem 0.5rem;
 }

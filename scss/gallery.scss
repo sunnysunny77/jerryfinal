@@ -24,6 +24,7 @@
     @include setbox(null, fit-content, null, null);
     a {
       background-color: $white;
+      outline: none;
       @include box(0, 0.2rem 0.5rem);
       h3 {
         @include box();
