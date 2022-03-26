@@ -20,8 +20,6 @@
 }
 #fixed-img h2 {
   background-color: #f8f8ff;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   width: fit-content;
   height: fit-content;
   padding: 0 1rem;
@@ -29,6 +27,8 @@
 }
 @media screen and (min-width: 40em) {
   #fixed-img h2 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     margin: 650px auto auto auto;
   }
 }

@@ -12,10 +12,10 @@
   }
   h2 {
     background-color: $white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 180px auto);
     @include medium_and_up {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
       @include setbox(null, null, null, 650px auto auto auto);
     }
   }
