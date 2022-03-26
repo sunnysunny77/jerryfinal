@@ -28,7 +28,6 @@ h1 {
 h2 {
     @include setbox(null, null, null, 1rem auto);
     color: darkShift($color1);
-    border-radius: 10px;
     font-style: oblique;
     text-shadow: 0 0 2.5px $color1;
     @include medium_and_up() {
