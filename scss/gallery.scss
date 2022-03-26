@@ -74,12 +74,12 @@
       @include box(1.5% 0, 5%);
     }
     .menu {
-      @include box(1rem 0 0 0, null);
+      @include box();
       a {
         @include box(0, 0.5rem 0.4rem);
       }
       ~ p {
-        @include box(0.5rem 0 0 0, null);
+        @extend .menu;
       }
     }
   }
