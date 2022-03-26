@@ -1,7 +1,7 @@
-#main .tabs-content a {
+.tabs-content a {
   color: #4E7F3D;
 }
-#main .tabs-content a:hover, #main .tabs-content a:focus {
+.tabs-content a:hover, .tabs-content a:focus {
   color: #566CAE;
 }
 
@@ -32,25 +32,25 @@
     margin: 650px auto auto auto;
   }
 }
-#fixed-img .menu, #fixed-img #main .tabs-content .menu ~ p, #main .tabs-content #fixed-img .menu ~ p {
+#fixed-img .menu, #fixed-img .tabs-content .menu ~ p, .tabs-content #fixed-img .menu ~ p {
   height: fit-content;
 }
 @media screen and (min-width: 40em) {
-  #fixed-img .menu li:nth-child(1) a, #fixed-img footer .menu li a:nth-child(1) a, footer #fixed-img .menu li a:nth-child(1) a, footer #main .tabs-content .menu ~ p li #fixed-img .menu a:nth-child(1) a, #main .tabs-content footer .menu ~ p li #fixed-img .menu a:nth-child(1) a, #fixed-img .menu footer .inline-list a:nth-child(1) a, footer .inline-list #fixed-img .menu a:nth-child(1) a, #fixed-img #main .tabs-content .menu ~ p li:nth-child(1) a, footer .menu li #fixed-img #main .tabs-content .menu ~ p a:nth-child(1) a, #fixed-img footer #main .tabs-content .menu ~ p li a:nth-child(1) a, footer #fixed-img #main .tabs-content .menu ~ p li a:nth-child(1) a, #fixed-img #main .tabs-content footer .menu ~ p li a:nth-child(1) a, #fixed-img #main .tabs-content .menu ~ p footer .inline-list a:nth-child(1) a, footer .inline-list #fixed-img #main .tabs-content .menu ~ p a:nth-child(1) a, #main .tabs-content #fixed-img .menu ~ p li:nth-child(1) a, footer .menu li #main .tabs-content #fixed-img .menu ~ p a:nth-child(1) a, footer #main .tabs-content #fixed-img .menu ~ p li a:nth-child(1) a, #main .tabs-content #fixed-img footer .menu ~ p li a:nth-child(1) a, #main .tabs-content footer #fixed-img .menu ~ p li a:nth-child(1) a, #main .tabs-content #fixed-img .menu ~ p footer .inline-list a:nth-child(1) a, footer .inline-list #main .tabs-content #fixed-img .menu ~ p a:nth-child(1) a {
+  #fixed-img .menu li:nth-child(1) a, #fixed-img footer .menu li a:nth-child(1) a, footer #fixed-img .menu li a:nth-child(1) a, footer .tabs-content .menu ~ p li #fixed-img .menu a:nth-child(1) a, .tabs-content footer .menu ~ p li #fixed-img .menu a:nth-child(1) a, #fixed-img .menu footer .inline-list a:nth-child(1) a, footer .inline-list #fixed-img .menu a:nth-child(1) a, #fixed-img .tabs-content .menu ~ p li:nth-child(1) a, footer .menu li #fixed-img .tabs-content .menu ~ p a:nth-child(1) a, #fixed-img footer .tabs-content .menu ~ p li a:nth-child(1) a, footer #fixed-img .tabs-content .menu ~ p li a:nth-child(1) a, #fixed-img .tabs-content footer .menu ~ p li a:nth-child(1) a, #fixed-img .tabs-content .menu ~ p footer .inline-list a:nth-child(1) a, footer .inline-list #fixed-img .tabs-content .menu ~ p a:nth-child(1) a, .tabs-content #fixed-img .menu ~ p li:nth-child(1) a, footer .menu li .tabs-content #fixed-img .menu ~ p a:nth-child(1) a, footer .tabs-content #fixed-img .menu ~ p li a:nth-child(1) a, .tabs-content #fixed-img footer .menu ~ p li a:nth-child(1) a, .tabs-content footer #fixed-img .menu ~ p li a:nth-child(1) a, .tabs-content #fixed-img .menu ~ p footer .inline-list a:nth-child(1) a, footer .inline-list .tabs-content #fixed-img .menu ~ p a:nth-child(1) a {
     border-top-left-radius: 5px;
   }
 }
 @media screen and (min-width: 40em) {
-  #fixed-img .menu li:nth-child(5) a, #fixed-img footer .menu li a:nth-child(5) a, footer #fixed-img .menu li a:nth-child(5) a, footer #main .tabs-content .menu ~ p li #fixed-img .menu a:nth-child(5) a, #main .tabs-content footer .menu ~ p li #fixed-img .menu a:nth-child(5) a, #fixed-img .menu footer .inline-list a:nth-child(5) a, footer .inline-list #fixed-img .menu a:nth-child(5) a, #fixed-img #main .tabs-content .menu ~ p li:nth-child(5) a, footer .menu li #fixed-img #main .tabs-content .menu ~ p a:nth-child(5) a, #fixed-img footer #main .tabs-content .menu ~ p li a:nth-child(5) a, footer #fixed-img #main .tabs-content .menu ~ p li a:nth-child(5) a, #fixed-img #main .tabs-content footer .menu ~ p li a:nth-child(5) a, #fixed-img #main .tabs-content .menu ~ p footer .inline-list a:nth-child(5) a, footer .inline-list #fixed-img #main .tabs-content .menu ~ p a:nth-child(5) a, #main .tabs-content #fixed-img .menu ~ p li:nth-child(5) a, footer .menu li #main .tabs-content #fixed-img .menu ~ p a:nth-child(5) a, footer #main .tabs-content #fixed-img .menu ~ p li a:nth-child(5) a, #main .tabs-content #fixed-img footer .menu ~ p li a:nth-child(5) a, #main .tabs-content footer #fixed-img .menu ~ p li a:nth-child(5) a, #main .tabs-content #fixed-img .menu ~ p footer .inline-list a:nth-child(5) a, footer .inline-list #main .tabs-content #fixed-img .menu ~ p a:nth-child(5) a {
+  #fixed-img .menu li:nth-child(5) a, #fixed-img footer .menu li a:nth-child(5) a, footer #fixed-img .menu li a:nth-child(5) a, footer .tabs-content .menu ~ p li #fixed-img .menu a:nth-child(5) a, .tabs-content footer .menu ~ p li #fixed-img .menu a:nth-child(5) a, #fixed-img .menu footer .inline-list a:nth-child(5) a, footer .inline-list #fixed-img .menu a:nth-child(5) a, #fixed-img .tabs-content .menu ~ p li:nth-child(5) a, footer .menu li #fixed-img .tabs-content .menu ~ p a:nth-child(5) a, #fixed-img footer .tabs-content .menu ~ p li a:nth-child(5) a, footer #fixed-img .tabs-content .menu ~ p li a:nth-child(5) a, #fixed-img .tabs-content footer .menu ~ p li a:nth-child(5) a, #fixed-img .tabs-content .menu ~ p footer .inline-list a:nth-child(5) a, footer .inline-list #fixed-img .tabs-content .menu ~ p a:nth-child(5) a, .tabs-content #fixed-img .menu ~ p li:nth-child(5) a, footer .menu li .tabs-content #fixed-img .menu ~ p a:nth-child(5) a, footer .tabs-content #fixed-img .menu ~ p li a:nth-child(5) a, .tabs-content #fixed-img footer .menu ~ p li a:nth-child(5) a, .tabs-content footer #fixed-img .menu ~ p li a:nth-child(5) a, .tabs-content #fixed-img .menu ~ p footer .inline-list a:nth-child(5) a, footer .inline-list .tabs-content #fixed-img .menu ~ p a:nth-child(5) a {
     border-top-right-radius: 5px;
   }
 }
-#fixed-img .menu a, #fixed-img #main .tabs-content .menu ~ p a, #main .tabs-content #fixed-img .menu ~ p a {
+#fixed-img .menu a, #fixed-img .tabs-content .menu ~ p a, .tabs-content #fixed-img .menu ~ p a {
   background-color: #f8f8ff;
   margin: 0;
   padding: 0.2rem 0.5rem;
 }
-#fixed-img .menu a h3, #fixed-img #main .tabs-content .menu ~ p a h3, #main .tabs-content #fixed-img .menu ~ p a h3 {
+#fixed-img .menu a h3, #fixed-img .tabs-content .menu ~ p a h3, .tabs-content #fixed-img .menu ~ p a h3 {
   margin: 0;
   padding: 0;
   font-size: 21px;
@@ -62,33 +62,33 @@
   color: #f8f8ff;
 }
 
-#main .tabs-content {
+.tabs-content {
   background-color: transparent;
   border: none;
 }
-#main .tabs-content .subheader i {
+.tabs-content .subheader i {
   font-size: smaller;
   color: #566CAE;
 }
-#main .tabs-content .subheader i:hover, #main .tabs-content .subheader i:focus {
+.tabs-content .subheader i:hover, .tabs-content .subheader i:focus {
   color: #4E7F3D;
 }
-#main .tabs-content h5.subheader {
+.tabs-content h5.subheader {
   color: #6b6b6b;
 }
-#main .tabs-content h4 {
+.tabs-content h4 {
   color: #2b241d;
   margin: 1% 0;
 }
-#main .tabs-content .gallery {
+.tabs-content .gallery {
   margin: 1.5% 0;
   padding: 5%;
 }
-#main .tabs-content .menu, #main .tabs-content .menu ~ p {
+.tabs-content .menu, .tabs-content .menu ~ p {
   margin: 0;
   padding: 0;
 }
-#main .tabs-content .menu a, #main .tabs-content .menu ~ p a {
+.tabs-content .menu a, .tabs-content .menu ~ p a {
   margin: 0;
   padding: 0.5rem 0.4rem;
 }
@@ -101,10 +101,10 @@
 }
 
 /* global */
-#main .tabs-content a {
+.tabs-content a {
   color: #4E7F3D;
 }
-#main .tabs-content a:hover, #main .tabs-content a:focus {
+.tabs-content a:hover, .tabs-content a:focus {
   color: #566CAE;
 }
 
@@ -164,14 +164,14 @@ h5 {
 .top-bar, .title-bar, .title-bar .top-bar-right ul, .title-bar .top-bar-left ul, .top-bar .top-bar-left ul, .top-bar .top-bar-right ul {
   background-color: #4B7C6A;
 }
-.top-bar .top-bar-right ul li a, footer .menu li .top-bar .top-bar-right ul a a, .top-bar .top-bar-right ul footer #main .tabs-content .menu ~ p li a a, footer #main .tabs-content .menu ~ p li .top-bar .top-bar-right ul a a, .top-bar .top-bar-right ul #main .tabs-content footer .menu ~ p li a a, #main .tabs-content footer .menu ~ p li .top-bar .top-bar-right ul a a, .top-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .top-bar .top-bar-right ul a a, .title-bar .top-bar-right ul li a, footer .menu li .title-bar .top-bar-right ul a a, .title-bar .top-bar-right ul footer #main .tabs-content .menu ~ p li a a, footer #main .tabs-content .menu ~ p li .title-bar .top-bar-right ul a a, .title-bar .top-bar-right ul #main .tabs-content footer .menu ~ p li a a, #main .tabs-content footer .menu ~ p li .title-bar .top-bar-right ul a a, .title-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .title-bar .top-bar-right ul a a {
+.top-bar .top-bar-right ul li a, footer .menu li .top-bar .top-bar-right ul a a, footer .tabs-content .menu ~ p li .top-bar .top-bar-right ul a a, .tabs-content footer .menu ~ p li .top-bar .top-bar-right ul a a, .top-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .top-bar .top-bar-right ul a a, .title-bar .top-bar-right ul li a, footer .menu li .title-bar .top-bar-right ul a a, footer .tabs-content .menu ~ p li .title-bar .top-bar-right ul a a, .tabs-content footer .menu ~ p li .title-bar .top-bar-right ul a a, .title-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .title-bar .top-bar-right ul a a {
   color: #f8f8ff;
   padding: 0.5rem;
 }
-.top-bar .top-bar-right ul li a:hover, footer .menu li .top-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul footer #main .tabs-content .menu ~ p li a a:hover, footer #main .tabs-content .menu ~ p li .top-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul #main .tabs-content footer .menu ~ p li a a:hover, #main .tabs-content footer .menu ~ p li .top-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .top-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul li a:hover, footer .menu li .title-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul footer #main .tabs-content .menu ~ p li a a:hover, footer #main .tabs-content .menu ~ p li .title-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul #main .tabs-content footer .menu ~ p li a a:hover, #main .tabs-content footer .menu ~ p li .title-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .title-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul li a:focus, footer .menu li .top-bar .top-bar-right ul a a:focus, .top-bar .top-bar-right ul footer #main .tabs-content .menu ~ p li a a:focus, footer #main .tabs-content .menu ~ p li .top-bar .top-bar-right ul a a:focus, .top-bar .top-bar-right ul #main .tabs-content footer .menu ~ p li a a:focus, #main .tabs-content footer .menu ~ p li .top-bar .top-bar-right ul a a:focus, .top-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .top-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul li a:focus, footer .menu li .title-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul footer #main .tabs-content .menu ~ p li a a:focus, footer #main .tabs-content .menu ~ p li .title-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul #main .tabs-content footer .menu ~ p li a a:focus, #main .tabs-content footer .menu ~ p li .title-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .title-bar .top-bar-right ul a a:focus {
+.top-bar .top-bar-right ul li a:hover, footer .menu li .top-bar .top-bar-right ul a a:hover, footer .tabs-content .menu ~ p li .top-bar .top-bar-right ul a a:hover, .tabs-content footer .menu ~ p li .top-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .top-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul li a:hover, footer .menu li .title-bar .top-bar-right ul a a:hover, footer .tabs-content .menu ~ p li .title-bar .top-bar-right ul a a:hover, .tabs-content footer .menu ~ p li .title-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .title-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul li a:focus, footer .menu li .top-bar .top-bar-right ul a a:focus, footer .tabs-content .menu ~ p li .top-bar .top-bar-right ul a a:focus, .tabs-content footer .menu ~ p li .top-bar .top-bar-right ul a a:focus, .top-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .top-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul li a:focus, footer .menu li .title-bar .top-bar-right ul a a:focus, footer .tabs-content .menu ~ p li .title-bar .top-bar-right ul a a:focus, .tabs-content footer .menu ~ p li .title-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .title-bar .top-bar-right ul a a:focus {
   color: #e1ca6f;
 }
-.top-bar .top-bar-left ul li, .top-bar .top-bar-left ul footer .menu li a, footer .menu li .top-bar .top-bar-left ul a, .top-bar .top-bar-left ul footer #main .tabs-content .menu ~ p li a, footer #main .tabs-content .menu ~ p li .top-bar .top-bar-left ul a, .top-bar .top-bar-left ul #main .tabs-content footer .menu ~ p li a, #main .tabs-content footer .menu ~ p li .top-bar .top-bar-left ul a, .top-bar .top-bar-left ul footer .inline-list a, footer .inline-list .top-bar .top-bar-left ul a, .title-bar .top-bar-left ul li, .title-bar .top-bar-left ul footer .menu li a, footer .menu li .title-bar .top-bar-left ul a, .title-bar .top-bar-left ul footer #main .tabs-content .menu ~ p li a, footer #main .tabs-content .menu ~ p li .title-bar .top-bar-left ul a, .title-bar .top-bar-left ul #main .tabs-content footer .menu ~ p li a, #main .tabs-content footer .menu ~ p li .title-bar .top-bar-left ul a, .title-bar .top-bar-left ul footer .inline-list a, footer .inline-list .title-bar .top-bar-left ul a {
+.top-bar .top-bar-left ul li, .top-bar .top-bar-left ul footer .menu li a, footer .menu li .top-bar .top-bar-left ul a, .top-bar .top-bar-left ul footer .tabs-content .menu ~ p li a, footer .tabs-content .menu ~ p li .top-bar .top-bar-left ul a, .top-bar .top-bar-left ul .tabs-content footer .menu ~ p li a, .tabs-content footer .menu ~ p li .top-bar .top-bar-left ul a, .top-bar .top-bar-left ul footer .inline-list a, footer .inline-list .top-bar .top-bar-left ul a, .title-bar .top-bar-left ul li, .title-bar .top-bar-left ul footer .menu li a, footer .menu li .title-bar .top-bar-left ul a, .title-bar .top-bar-left ul footer .tabs-content .menu ~ p li a, footer .tabs-content .menu ~ p li .title-bar .top-bar-left ul a, .title-bar .top-bar-left ul .tabs-content footer .menu ~ p li a, .tabs-content footer .menu ~ p li .title-bar .top-bar-left ul a, .title-bar .top-bar-left ul footer .inline-list a, footer .inline-list .title-bar .top-bar-left ul a {
   margin: 0;
   padding: 0;
 }
@@ -191,13 +191,13 @@ footer {
   padding-top: 15px;
   background-color: #566CAE;
 }
-footer .menu li, footer .menu li a, #main .tabs-content footer .menu .menu ~ p li a, footer .menu .inline-list a, footer .inline-list .menu a, footer #main .tabs-content .menu ~ p li, footer .menu li #main .tabs-content .menu ~ p a, footer #main .tabs-content .menu ~ p li a, footer #main .tabs-content .menu ~ p .inline-list a, footer .inline-list #main .tabs-content .menu ~ p a, #main .tabs-content footer .menu ~ p li, #main .tabs-content footer .menu li .menu ~ p a, #main .tabs-content footer .menu ~ p li a, #main .tabs-content footer .menu ~ p .inline-list a, #main .tabs-content footer .inline-list .menu ~ p a, footer .inline-list {
+footer .menu li, footer .menu li a, .tabs-content footer .menu .menu ~ p li a, footer .menu .inline-list a, footer .inline-list .menu a, footer .tabs-content .menu ~ p li, footer .menu li .tabs-content .menu ~ p a, footer .tabs-content .menu ~ p li a, footer .tabs-content .menu ~ p .inline-list a, footer .inline-list .tabs-content .menu ~ p a, .tabs-content footer .menu ~ p li, .tabs-content footer .menu li .menu ~ p a, .tabs-content footer .menu ~ p li a, .tabs-content footer .menu ~ p .inline-list a, .tabs-content footer .inline-list .menu ~ p a, footer .inline-list {
   color: #f8f8ff;
 }
-footer .menu li a, #main .tabs-content footer .menu .menu ~ p li a a, footer .menu .inline-list a a, footer .inline-list .menu a a, footer #main .tabs-content .menu ~ p li a, footer .menu li #main .tabs-content .menu ~ p a a, footer #main .tabs-content .menu ~ p .inline-list a a, footer .inline-list #main .tabs-content .menu ~ p a a, #main .tabs-content footer .menu ~ p li a, #main .tabs-content footer .menu li .menu ~ p a a, #main .tabs-content footer .menu ~ p .inline-list a a, #main .tabs-content footer .inline-list .menu ~ p a a, footer .inline-list a {
+footer .menu li a, .tabs-content footer .menu .menu ~ p li a a, footer .menu .inline-list a a, footer .inline-list .menu a a, footer .tabs-content .menu ~ p li a, footer .menu li .tabs-content .menu ~ p a a, footer .tabs-content .menu ~ p .inline-list a a, footer .inline-list .tabs-content .menu ~ p a a, .tabs-content footer .menu ~ p li a, .tabs-content footer .menu li .menu ~ p a a, .tabs-content footer .menu ~ p .inline-list a a, .tabs-content footer .inline-list .menu ~ p a a, footer .inline-list a {
   padding: 0.5rem;
 }
-footer .menu li a:hover, footer #main .tabs-content .menu ~ p li a:hover, #main .tabs-content footer .menu ~ p li a:hover, footer .menu li #main .tabs-content .menu ~ p a a:hover, #main .tabs-content footer .menu li .menu ~ p a a:hover, #main .tabs-content footer .menu .menu ~ p li a a:hover, footer #main .tabs-content .menu ~ p .inline-list a a:hover, footer .inline-list #main .tabs-content .menu ~ p a a:hover, #main .tabs-content footer .menu ~ p .inline-list a a:hover, #main .tabs-content footer .inline-list .menu ~ p a a:hover, footer .menu li a:focus, footer #main .tabs-content .menu ~ p li a:focus, #main .tabs-content footer .menu ~ p li a:focus, footer .menu li #main .tabs-content .menu ~ p a a:focus, #main .tabs-content footer .menu li .menu ~ p a a:focus, #main .tabs-content footer .menu .menu ~ p li a a:focus, footer #main .tabs-content .menu ~ p .inline-list a a:focus, footer .inline-list #main .tabs-content .menu ~ p a a:focus, #main .tabs-content footer .menu ~ p .inline-list a a:focus, #main .tabs-content footer .inline-list .menu ~ p a a:focus, footer .inline-list a:hover, footer .inline-list a:focus {
+footer .menu li a:hover, footer .tabs-content .menu ~ p li a:hover, .tabs-content footer .menu ~ p li a:hover, footer .menu li a:focus, footer .tabs-content .menu ~ p li a:focus, .tabs-content footer .menu ~ p li a:focus, footer .inline-list a:hover, footer .inline-list a:focus {
   color: #e1ca6f;
 }
 

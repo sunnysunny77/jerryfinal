@@ -48,39 +48,37 @@
   }
 }
 
-#main {
-  .tabs-content {
-    background-color: $transparent;
-    border: none;
-    .subheader i {
-      font-size: smaller;
-      color: $color2;
-      &:hover,
-      &:focus {
-        color: $color5;
-      }
+.tabs-content {
+  background-color: $transparent;
+  border: none;
+  .subheader i {
+    font-size: smaller;
+    color: $color2;
+    &:hover,
+    &:focus {
+      color: $color5;
     }
-    h5.subheader {
-      color: lightShift($color6);
-    }
+  }
+  h5.subheader {
+    color: lightShift($color6);
+  }
+  a {
+    @extend %link;
+  }
+  h4 {
+    color: $color1;
+    @include box(1% 0, null);
+  }
+  .gallery {
+    @include box(1.5% 0, 5%);
+  }
+  .menu {
+    @include box();
     a {
-      @extend %link;
+      @include box(0, 0.5rem 0.4rem);
     }
-    h4 {
-      color: $color1;
-      @include box(1% 0, null);
-    }
-    .gallery {
-      @include box(1.5% 0, 5%);
-    }
-    .menu {
-      @include box();
-      a {
-        @include box(0, 0.5rem 0.4rem);
-      }
-      ~ p {
-        @extend .menu;
-      }
+    ~ p {
+      @extend .menu;
     }
   }
 }
