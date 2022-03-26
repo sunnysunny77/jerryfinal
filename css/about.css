@@ -3,6 +3,7 @@ body {
   margin: auto;
   position: relative;
 }
+
 body::before {
   position: absolute;
   content: "";
@@ -29,6 +30,7 @@ h2 {
   font-style: oblique;
   text-shadow: 0 0 2.5px #2b241d;
 }
+
 @media screen and (min-width: 40em) {
   h2 {
     margin: 50px auto;
@@ -46,21 +48,25 @@ h5 {
     margin-bottom: 50px;
   }
 }
+
 main i {
   color: #2b241d;
 }
 
-.top-bar, .title-bar, .title-bar .top-bar-right ul, .title-bar .top-bar-left ul, .top-bar .top-bar-left ul, .top-bar .top-bar-right ul {
+.top-bar, .top-bar .top-bar-right ul, .top-bar .top-bar-left ul, .title-bar {
   background-color: #4B7C6A;
 }
-.top-bar .top-bar-right ul li a, footer .menu li .top-bar .top-bar-right ul a a, .top-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .top-bar .top-bar-right ul a a, .title-bar .top-bar-right ul li a, footer .menu li .title-bar .top-bar-right ul a a, .title-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .title-bar .top-bar-right ul a a {
+
+.top-bar .top-bar-right ul li a, .title-bar .top-bar-right ul li a, footer .menu li .top-bar .top-bar-right ul a a, footer .menu li .title-bar .top-bar-right ul a a, .top-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .top-bar .top-bar-right ul a a, .title-bar .top-bar-right ul footer .inline-list a a, footer .inline-list .title-bar .top-bar-right ul a a {
   color: #f8f8ff;
   padding: 0.5rem;
 }
-.top-bar .top-bar-right ul li a:hover, footer .menu li .top-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .top-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul li a:hover, footer .menu li .title-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .title-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul li a:focus, footer .menu li .top-bar .top-bar-right ul a a:focus, .top-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .top-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul li a:focus, footer .menu li .title-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .title-bar .top-bar-right ul a a:focus {
+
+.top-bar .top-bar-right ul li a:hover, .title-bar .top-bar-right ul li a:hover, footer .menu li .top-bar .top-bar-right ul a a:hover, footer .menu li .title-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .top-bar .top-bar-right ul a a:hover, .title-bar .top-bar-right ul footer .inline-list a a:hover, footer .inline-list .title-bar .top-bar-right ul a a:hover, .top-bar .top-bar-right ul li a:focus, .title-bar .top-bar-right ul li a:focus, footer .menu li .top-bar .top-bar-right ul a a:focus, footer .menu li .title-bar .top-bar-right ul a a:focus, .top-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .top-bar .top-bar-right ul a a:focus, .title-bar .top-bar-right ul footer .inline-list a a:focus, footer .inline-list .title-bar .top-bar-right ul a a:focus {
   color: #e1ca6f;
 }
-.top-bar .top-bar-left ul li, .top-bar .top-bar-left ul footer .menu li a, footer .menu li .top-bar .top-bar-left ul a, .top-bar .top-bar-left ul footer .inline-list a, footer .inline-list .top-bar .top-bar-left ul a, .title-bar .top-bar-left ul li, .title-bar .top-bar-left ul footer .menu li a, footer .menu li .title-bar .top-bar-left ul a, .title-bar .top-bar-left ul footer .inline-list a, footer .inline-list .title-bar .top-bar-left ul a {
+
+.top-bar .top-bar-left ul li, .title-bar .top-bar-left ul li, .top-bar .top-bar-left ul footer .menu li a, footer .menu li .top-bar .top-bar-left ul a, .title-bar .top-bar-left ul footer .menu li a, footer .menu li .title-bar .top-bar-left ul a, .top-bar .top-bar-left ul footer .inline-list a, footer .inline-list .top-bar .top-bar-left ul a, .title-bar .top-bar-left ul footer .inline-list a, footer .inline-list .title-bar .top-bar-left ul a {
   margin: 0;
   padding: 0;
 }
@@ -68,6 +74,7 @@ main i {
 .title-bar .title-bar-title, .title-bar .menu-icon {
   color: #f8f8ff;
 }
+
 #logo {
   background-image: url(../images/template/logo.svg);
   display: inline-block;
@@ -80,13 +87,16 @@ footer {
   padding-top: 15px;
   background-color: #566CAE;
 }
+
 footer .menu li, footer .menu li a, footer .menu .inline-list a, footer .inline-list .menu a, footer .inline-list {
   color: #f8f8ff;
 }
+
 footer .menu li a, footer .menu .inline-list a a, footer .inline-list .menu a a, footer .inline-list a {
   padding: 0.5rem;
 }
-footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, footer .inline-list a:focus {
+
+footer .menu li a:hover, footer .menu .inline-list a a:hover, footer .inline-list .menu a a:hover, footer .menu li a:focus, footer .menu .inline-list a a:focus, footer .inline-list .menu a a:focus, footer .inline-list a:hover, footer .inline-list a:focus {
   color: #e1ca6f;
 }
 
@@ -106,15 +116,18 @@ footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, f
   background-color: rgba(138, 138, 138, 0.1);
   border-radius: 5px;
 }
+
 .card .card-divider {
   background-color: rgba(138, 138, 138, 0.1);
   font-size: larger;
   color: #2b241d;
 }
+
 .card img {
   width: 100%;
   margin: auto;
 }
+
 @media screen and (min-width: 40em) {
   .card img {
     border-radius: 2px;
@@ -122,8 +135,8 @@ footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, f
     margin: 1.5rem auto auto auto;
   }
 }
+
 .card h3 {
   font-size: 19.2px;
 }
-
 /*# sourceMappingURL=about.css.map */
