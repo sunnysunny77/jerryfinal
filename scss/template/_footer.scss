@@ -4,7 +4,7 @@ footer {
     .menu li, .inline-list {
         color: $white;
         a {
-            @extend li;
+            color: $white;
             @include box(null, 0.5rem);
             &:hover,
             &:focus {

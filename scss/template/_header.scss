@@ -2,7 +2,7 @@
     background-color: $color4;
     .top-bar-right {
         ul {
-            @extend .top-bar;
+            background-color: $color4;
             li a {
                 color: $white;
                 @include box(null, 0.5rem);
@@ -14,7 +14,7 @@
         }
     }
     .top-bar-left ul {
-        @extend .top-bar;
+        background-color: $color4;
         li {
             @include box();
         }
@@ -22,12 +22,9 @@
 }
 
 .title-bar {
-    @extend .top-bar;
-    .title-bar-title {
+    background-color: $color4;
+    .title-bar-title, .menu-icon {
         color: $white;
-    }
-    .menu-icon {
-        @extend .title-bar-title;
     }
 }
 

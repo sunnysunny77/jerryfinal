@@ -31,12 +31,12 @@
       }
     }
     li:nth-child(1) a {
-      @include medium_and_up {
+      @media screen and (min-width: 40em) {
         border-top-left-radius: 5px;
       }
     }
     li:nth-child(5) a {
-      @include medium_and_up {
+      @media screen and (min-width: 40em) {
         border-top-right-radius: 5px;
       }
     }
@@ -59,12 +59,12 @@
       @extend %link;
     }
     ~ p {
-      @extend .menu;
+      @include box();
     }
   }
   h4 {
     color: $color1;
-    @extend .menu;
+    @include box();
     i {
       font-size: smaller;
       color: $color4;

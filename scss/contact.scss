@@ -21,7 +21,7 @@ main a {
 }
 
 .tabs-content {
-    @extend .tabs;
+    background: $transparent;
     .button {
       @extend %button;
     }
