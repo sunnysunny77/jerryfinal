@@ -48,10 +48,9 @@ main {
             margin-bottom: 50px;
         }
     }
-}
-
-#main i {
-    color: $color1;
+    i {
+        color: $color1;
+    }
 }
 
 @import "./header";
