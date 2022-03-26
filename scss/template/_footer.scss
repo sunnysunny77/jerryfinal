@@ -1,7 +1,7 @@
 footer {
     padding-top: 15px;
     background-color: $color2;
-    .menu li, .inline-list {
+    .menu li {
         color: $white;
         a {
             color: $white;
@@ -11,5 +11,8 @@ footer {
                 color: $color3;
             }
         }
+    }
+    .inline-list {
+        color: $white;
     }
 }

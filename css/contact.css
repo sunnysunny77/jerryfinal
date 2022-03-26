@@ -107,15 +107,18 @@ footer {
   padding-top: 15px;
   background-color: #566CAE;
 }
-footer .menu li, footer .inline-list {
+footer .menu li {
   color: #f8f8ff;
 }
-footer .menu li a, footer .inline-list a {
+footer .menu li a {
   color: #f8f8ff;
   padding: 0.5rem;
 }
-footer .menu li a:hover, footer .menu li a:focus, footer .inline-list a:hover, footer .inline-list a:focus {
+footer .menu li a:hover, footer .menu li a:focus {
   color: #e1ca6f;
+}
+footer .inline-list {
+  color: #f8f8ff;
 }
 
 /* contact */
