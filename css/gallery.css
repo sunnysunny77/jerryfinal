@@ -78,7 +78,8 @@
 }
 .tabs-content h4 {
   color: #2b241d;
-  margin: 1% 0;
+  margin: 0;
+  padding: 0;
 }
 .tabs-content .gallery {
   margin: 1.5% 0;

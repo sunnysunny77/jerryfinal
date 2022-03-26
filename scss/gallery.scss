@@ -67,7 +67,7 @@
   }
   h4 {
     color: $color1;
-    @include box(1% 0, null);
+    @include box();
   }
   .gallery {
     @include box(1.5% 0, 5%);
