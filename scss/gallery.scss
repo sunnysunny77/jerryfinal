@@ -63,7 +63,7 @@
   }
   h4 {
     color: $color1;
-    @include box();
+    @extend .menu;
     i {
       font-size: smaller;
       color: $color4;
