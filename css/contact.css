@@ -1,7 +1,7 @@
-.tabs li a h3, .tabs-content li a h3, footer .menu li .tabs a a h3, footer .menu li .tabs-content a a h3, .tabs footer .inline-list a a h3, .tabs-content footer .inline-list a a h3, footer .inline-list .tabs a a h3, footer .inline-list .tabs-content a a h3, #main a {
+.tabs li a h3, .tabs-content li a h3, footer .menu li .tabs a a h3, footer .menu li .tabs-content a a h3, .tabs footer .inline-list a a h3, .tabs-content footer .inline-list a a h3, footer .inline-list .tabs a a h3, footer .inline-list .tabs-content a a h3, main a {
   color: #4E7F3D;
 }
-.tabs li a h3:hover, .tabs-content li a h3:hover, footer .menu li .tabs a a h3:hover, footer .menu li .tabs-content a a h3:hover, .tabs footer .inline-list a a h3:hover, .tabs-content footer .inline-list a a h3:hover, footer .inline-list .tabs a a h3:hover, footer .inline-list .tabs-content a a h3:hover, #main a:hover, .tabs li a h3:focus, .tabs-content li a h3:focus, footer .menu li .tabs a a h3:focus, footer .menu li .tabs-content a a h3:focus, .tabs footer .inline-list a a h3:focus, .tabs-content footer .inline-list a a h3:focus, footer .inline-list .tabs a a h3:focus, footer .inline-list .tabs-content a a h3:focus, #main a:focus {
+.tabs li a h3:hover, .tabs-content li a h3:hover, footer .menu li .tabs a a h3:hover, footer .menu li .tabs-content a a h3:hover, .tabs footer .inline-list a a h3:hover, .tabs-content footer .inline-list a a h3:hover, footer .inline-list .tabs a a h3:hover, footer .inline-list .tabs-content a a h3:hover, main a:hover, .tabs li a h3:focus, .tabs-content li a h3:focus, footer .menu li .tabs a a h3:focus, footer .menu li .tabs-content a a h3:focus, .tabs footer .inline-list a a h3:focus, .tabs-content footer .inline-list a a h3:focus, footer .inline-list .tabs a a h3:focus, footer .inline-list .tabs-content a a h3:focus, main a:focus {
   color: #566CAE;
 }
 
@@ -15,10 +15,10 @@
 }
 
 /* global */
-.tabs li a h3, .tabs-content li a h3, footer .menu li .tabs a a h3, footer .menu li .tabs-content a a h3, .tabs footer .inline-list a a h3, .tabs-content footer .inline-list a a h3, footer .inline-list .tabs a a h3, footer .inline-list .tabs-content a a h3, #main a {
+.tabs li a h3, .tabs-content li a h3, footer .menu li .tabs a a h3, footer .menu li .tabs-content a a h3, .tabs footer .inline-list a a h3, .tabs-content footer .inline-list a a h3, footer .inline-list .tabs a a h3, footer .inline-list .tabs-content a a h3, main a {
   color: #4E7F3D;
 }
-.tabs li a h3:hover, .tabs-content li a h3:hover, footer .menu li .tabs a a h3:hover, footer .menu li .tabs-content a a h3:hover, .tabs footer .inline-list a a h3:hover, .tabs-content footer .inline-list a a h3:hover, footer .inline-list .tabs a a h3:hover, footer .inline-list .tabs-content a a h3:hover, #main a:hover, .tabs li a h3:focus, .tabs-content li a h3:focus, footer .menu li .tabs a a h3:focus, footer .menu li .tabs-content a a h3:focus, .tabs footer .inline-list a a h3:focus, .tabs-content footer .inline-list a a h3:focus, footer .inline-list .tabs a a h3:focus, footer .inline-list .tabs-content a a h3:focus, #main a:focus {
+.tabs li a h3:hover, .tabs-content li a h3:hover, footer .menu li .tabs a a h3:hover, footer .menu li .tabs-content a a h3:hover, .tabs footer .inline-list a a h3:hover, .tabs-content footer .inline-list a a h3:hover, footer .inline-list .tabs a a h3:hover, footer .inline-list .tabs-content a a h3:hover, main a:hover, .tabs li a h3:focus, .tabs-content li a h3:focus, footer .menu li .tabs a a h3:focus, footer .menu li .tabs-content a a h3:focus, .tabs footer .inline-list a a h3:focus, .tabs-content footer .inline-list a a h3:focus, footer .inline-list .tabs a a h3:focus, footer .inline-list .tabs-content a a h3:focus, main a:focus {
   color: #566CAE;
 }
 

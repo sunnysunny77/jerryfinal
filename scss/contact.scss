@@ -1,7 +1,7 @@
 @import "variables";
 @import "template/styles";
 
-#main a {
+main a {
     @extend %link;
 }
 
