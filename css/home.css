@@ -82,7 +82,7 @@ body::before {
   left: 0;
   z-index: -999;
   background-blend-mode: screen;
-  opacity: 0.25;
+  opacity: 0.5;
   background-color: rgba(86, 108, 174, 0.125);
 }
 

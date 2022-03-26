@@ -21,7 +21,6 @@
   }
   .menu {
     @include setbox(null, fit-content, null, null);
-    background-color: $white;
     li:nth-child(1) a {
       @include medium_and_up {
         border-top-left-radius: 5px;

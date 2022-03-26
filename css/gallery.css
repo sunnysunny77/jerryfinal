@@ -34,7 +34,6 @@
 }
 #fixed-img .menu {
   height: fit-content;
-  background-color: #f8f8ff;
 }
 @media screen and (min-width: 40em) {
   #fixed-img .menu li:nth-child(1) a, #fixed-img footer .menu li a:nth-child(1) a, footer #fixed-img .menu li a:nth-child(1) a, #fixed-img .menu footer .inline-list a:nth-child(1) a, footer .inline-list #fixed-img .menu a:nth-child(1) a {
@@ -127,7 +126,7 @@ body::before {
   left: 0;
   z-index: -999;
   background-blend-mode: screen;
-  opacity: 0.25;
+  opacity: 0.5;
   background-color: rgba(86, 108, 174, 0.125);
 }
 
