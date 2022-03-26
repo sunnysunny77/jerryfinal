@@ -69,7 +69,8 @@ main i {
 .title-bar {
   background-color: #4B7C6A;
 }
-.title-bar .title-bar-title, .title-bar .menu-icon {
+.title-bar .title-bar-title,
+.title-bar .menu-icon {
   color: #f8f8ff;
 }
 
