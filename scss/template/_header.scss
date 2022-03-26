@@ -2,7 +2,7 @@
     background-color: $color4;
     .top-bar-right {
         ul {
-            background-color: $color4;
+            @extend .top-bar;
             li a {
                 color: $white;
                 @include box(null, 0.5rem);
@@ -14,7 +14,7 @@
         }
     }
     .top-bar-left ul {
-        background-color: $color4;
+        @extend .top-bar;
         li {
             @include box();
         }

@@ -51,10 +51,7 @@ main i {
   color: #2b241d;
 }
 
-.top-bar {
-  background-color: #4B7C6A;
-}
-.top-bar .top-bar-right ul {
+.top-bar, .top-bar .top-bar-left ul, .top-bar .top-bar-right ul {
   background-color: #4B7C6A;
 }
 .top-bar .top-bar-right ul li a {
@@ -63,9 +60,6 @@ main i {
 }
 .top-bar .top-bar-right ul li a:hover, .top-bar .top-bar-right ul li a:focus {
   color: #e1ca6f;
-}
-.top-bar .top-bar-left ul {
-  background-color: #4B7C6A;
 }
 .top-bar .top-bar-left ul li {
   margin: 0;
