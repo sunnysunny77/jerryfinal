@@ -1,5 +1,6 @@
 .top-bar {
     background-color: $color4;
+    background-image: url(../images/template/header.jpg);
     .top-bar-right ul {
         @extend .top-bar;
         li a {

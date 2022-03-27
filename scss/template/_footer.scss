@@ -1,15 +1,13 @@
 footer {
     padding-top: 15px;
     background-color: $color2;
-    .menu li {
+    background-image: url(../images/template/footer.jpg);
+    .menu li a {
         color: $white;
-        a {
-            color: $white;
-            @include box(null, 0.5rem);
-            &:hover,
-            &:focus {
-                color: $color3;
-            }
+        @include box(null, 0.5rem);
+        &:hover,
+        &:focus {
+            color: $color3;
         }
     }
     .inline-list {
