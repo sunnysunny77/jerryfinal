@@ -194,23 +194,9 @@ footer .inline-list {
 .tabs-content h4 i:hover, .tabs-content h4 i:focus {
   color: #e1ca6f;
 }
-.tabs-content h5.subheader {
-  color: #6b6b6b;
-}
-
-.gallery {
+.tabs-content .gallery {
   margin: 1.5% 0;
   padding: 5%;
-}
-.gallery img {
-  max-height: 500px;
-}
-.gallery div {
-  background-image: url("https://via.placeholder.com/500x500");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  padding: 33.37% 0;
 }
 
 /*# sourceMappingURL=gallery.css.map */
