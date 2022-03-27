@@ -60,6 +60,6 @@
 .p-left {
     @include medium_and_up {
         box-shadow:  0 -1px rgba($color1 , 0.1);
-        @include box(null, calc(50px + 1.5rem) 0 0 0 );
+        @include box(null, 2rem 0 0 0 );
     }
 }
