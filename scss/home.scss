@@ -21,7 +21,7 @@
 
 .media-object {
     @include medium_and_up() {
-        @include setbox(null, null, null, auto auto 50px auto);
+        @include setbox(null, null, null, auto);
     }
     .media-object-section:nth-child(2) img {
         @include setbox(96%, null, null, null);
@@ -34,10 +34,13 @@
         @include setbox(null, null, 0, null);
         @include medium_and_up() {
             &:nth-child(1) {
-                @include setbox(null, null, 2%, 2%);
+                @include setbox(null, null, 2% , 2%);
             }
             &:nth-child(2) {
-                @include setbox(null, null, 3%, null);
+                @include setbox(null, null, 3% 0 3% 3% , null);
+                @include large_and_up() {
+                    @include setbox(null, null, 3% , null);
+                }
             }
         }
     }
@@ -60,6 +63,6 @@
 .p-left {
     @include medium_and_up {
         box-shadow:  0 -1px rgba($color1 , 0.1);
-        @include box(null, 2rem 0 0 0 );
+        @include box(null, 3rem 0 0 0 );
     }
 }
