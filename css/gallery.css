@@ -114,6 +114,7 @@ footer .inline-list {
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
+  border-bottom: 1px solid #f8f8ff;
 }
 @media screen and (min-width: 40em) {
   #fixed-img {
@@ -122,7 +123,6 @@ footer .inline-list {
   }
 }
 #fixed-img h2 {
-  background-color: #f8f8ff;
   width: fit-content;
   height: fit-content;
   padding: 0 1rem;
@@ -130,8 +130,9 @@ footer .inline-list {
 }
 @media screen and (min-width: 40em) {
   #fixed-img h2 {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: #f8f8ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     margin: 650px auto auto auto;
   }
 }
@@ -169,16 +170,10 @@ footer .inline-list {
 .tabs-content {
   background-color: transparent;
   border: none;
-}
-.tabs-content .menu {
   margin: 0;
   padding: 0;
 }
 .tabs-content .menu a {
-  margin: 0;
-  padding: 0.5rem 0.4rem;
-}
-.tabs-content .menu ~ p {
   margin: 0;
   padding: 0;
 }
@@ -197,6 +192,24 @@ footer .inline-list {
 .tabs-content .gallery {
   margin: 1.5% 0;
   padding: 5%;
+}
+@media screen and (min-width: 64em) {
+  .tabs-content .is-active {
+    position: relative;
+  }
+  .tabs-content .is-active::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: calc(83.34% - 1rem);
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    background-blend-mode: screen;
+    opacity: 0.75;
+    background-color: rgba(75, 124, 106, 0.025);
+    border-right: 1px solid #f8f8ff;
+  }
 }
 
 /*# sourceMappingURL=gallery.css.map */

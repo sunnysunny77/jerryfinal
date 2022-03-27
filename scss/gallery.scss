@@ -7,16 +7,17 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
+  border-bottom: 1px solid $white;
   @include medium_and_up {
     background-image: url("../images/gallery/fixed.png");
     background-size: cover;
   }
   h2 {
-    background-color: $white;
     @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 180px auto);
     @include medium_and_up {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
+      background-color: $white;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
       @include setbox(null, null, null, 650px auto auto auto);
     }
   }
@@ -53,14 +54,11 @@
 .tabs-content {
   background-color: $transparent;
   border: none;
+  @include box();
   .menu {
-    @include box();
     a {
-      @include box(0, 0.5rem 0.4rem);
-      @extend %link;
-    }
-    ~ p {
       @include box();
+      @extend %link;
     }
   }
   h4 {
@@ -78,5 +76,22 @@
   .gallery {
     @include box(1.5% 0, 5%);
   }
+  @include large_and_up {
+    .is-active {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: calc(83.34% - 1rem );
+        bottom: 0;
+        left: 0;
+        z-index: -2;
+        background-blend-mode: screen;
+        opacity: 0.75;
+        background-color: rgba($color4, 0.025);
+        border-right: 1px solid $white;
+      }
+    }
+  }
 }
-
