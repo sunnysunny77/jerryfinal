@@ -127,7 +127,7 @@ footer .inline-list {
   }
 }
 .media-object .media-object-section:nth-child(2) img {
-  width: 96%;
+  width: 100%;
   border-radius: 10px;
 }
 @media screen and (min-width: 40em) {
