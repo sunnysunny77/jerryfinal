@@ -3,22 +3,25 @@
 
 #fixed-img {
   background-image: url("../images/gallery/fixed-m.png");
-  background-size: auto;
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;
+  background-size: auto;
   border-bottom: 1px solid $white;
-  @include medium_and_up {
+  @include large_and_up {
     background-image: url("../images/gallery/fixed.png");
     background-size: cover;
+    background-attachment: fixed;
   }
   h2 {
-    @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 180px auto);
+    @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 250px auto);
     @include medium_and_up {
       background-color: $white;
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
-      @include setbox(null, null, null, 650px auto auto auto);
+      @include setbox(null, null, null, 333px auto auto auto);
+    }
+    @include large_and_up {   
+      @include setbox(null, null, null, 75vh auto auto auto);
     }
   }
   .menu {
@@ -29,18 +32,17 @@
       @include box(0, 0.2rem 0.5rem);
       h3 {
         @include box();
-        font-size: 21px;
+        font-size: 16px;
+        @include medium_and_up {
+          font-size: 21.5px;
+        }
       }
     }
     li:nth-child(1) a {
-      @media screen and (min-width: 40em) {
-        border-top-left-radius: 5px;
-      }
+      border-top-left-radius: 5px;
     }
     li:nth-child(5) a {
-      @media screen and (min-width: 40em) {
-        border-top-right-radius: 5px;
-      }
+      border-top-right-radius: 5px;
     }
   }
   .tabs-title > a[aria-selected="true"] {
