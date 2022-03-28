@@ -21,7 +21,7 @@
       @include setbox(null, null, null, 333px auto auto auto);
     }
     @include large_and_up {   
-      @include setbox(null, null, null, 75vh auto auto auto);
+      @include setbox(null, null, null, calc(100vh - 215px) auto auto auto);
     }
   }
   .menu {

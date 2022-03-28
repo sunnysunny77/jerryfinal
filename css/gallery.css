@@ -141,7 +141,7 @@ footer .menu li a:hover, footer .menu li a:focus {
 }
 @media screen and (min-width: 64em) {
   #fixed-img h2 {
-    margin: 75vh auto auto auto;
+    margin: calc(100vh - 215px) auto auto auto;
   }
 }
 #fixed-img .menu {
