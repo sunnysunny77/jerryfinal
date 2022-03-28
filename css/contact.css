@@ -23,7 +23,6 @@ body {
 body::before {
   position: absolute;
   content: "";
-  background-image: url(../images/template/body.jpg);
   top: 0;
   right: 0;
   bottom: 0;
@@ -32,9 +31,8 @@ body::before {
   background-blend-mode: screen;
   opacity: 0.5;
   background-color: rgba(225, 202, 111, 0.125);
+  background: url(../images/template/body.jpg) no-repeat center top fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 h1 {
