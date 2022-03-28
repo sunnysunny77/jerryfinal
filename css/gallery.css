@@ -199,8 +199,6 @@ footer .menu li a:hover, footer .menu li a:focus {
 .tabs-content .top-link {
   position: sticky;
   top: 0;
-  width: 100%;
-  text-align: right;
 }
 .tabs-content .top-link i {
   font-size: medium;
