@@ -185,13 +185,6 @@ footer .menu li a:hover, footer .menu li a:focus {
   margin: 0;
   padding: 0;
 }
-.tabs-content h4 i {
-  font-size: smaller;
-  color: #4B7C6A;
-}
-.tabs-content h4 i:hover, .tabs-content h4 i:focus {
-  color: #e1ca6f;
-}
 .tabs-content .gallery {
   margin: 1.5% 0;
   padding: 5%;
@@ -210,6 +203,19 @@ footer .menu li a:hover, footer .menu li a:focus {
     background-color: rgba(225, 202, 111, 0.125);
     border-right: 1px solid #f8f8ff;
   }
+}
+.tabs-content .top-link {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+.tabs-content .top-link i {
+  font-size: medium;
+  color: #4B7C6A;
+}
+.tabs-content .top-link i:hover, .tabs-content .top-link i:focus {
+  color: #e1ca6f;
 }
 
 /*# sourceMappingURL=gallery.css.map */

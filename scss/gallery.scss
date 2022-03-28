@@ -64,14 +64,6 @@
   h4 {
     color: $color1;
     @include box();
-    i {
-      font-size: smaller;
-      color: $color4;
-      &:hover,
-      &:focus {
-        color: $color3;
-      }
-    }
   }
   .gallery {
     @include box(1.5% 0, 5%);
@@ -88,6 +80,20 @@
         left: 0;
         background-color: rgba($color3, 0.125);
         border-right: 1px solid $white;
+      }
+    }
+  }
+  .top-link {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    i {
+      font-size: medium;
+      color: $color4;
+      &:hover,
+      &:focus {
+        color: $color3;
       }
     }
   }
