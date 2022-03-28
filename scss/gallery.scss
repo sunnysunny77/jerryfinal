@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
-  border-bottom: 1px solid $color2;
+  border-bottom: 1px solid $white;
   @include medium_and_up {
     background-image: url("../images/gallery/fixed.png");
     background-size: cover;
@@ -15,7 +15,7 @@
   h2 {
     @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 180px auto);
     @include medium_and_up {
-      background-color: $color2;
+      background-color: $white;
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
       @include setbox(null, null, null, 650px auto auto auto);
@@ -24,7 +24,7 @@
   .menu {
     @include setbox(null, fit-content, null, null);
     a {
-      background-color: $color2;
+      background-color: $white;
       outline: none;
       @include box(0, 0.2rem 0.5rem);
       h3 {
@@ -46,7 +46,7 @@
   .tabs-title > a[aria-selected="true"] {
     background-color: $color1;
     h3 {
-      color: $color2;
+      color: $white;
     }
   }
 }
@@ -86,7 +86,7 @@
         right: calc(83.34% - 1rem );
         bottom: 0;
         left: 0;
-        border-right: 1px solid $color2;
+        border-right: 1px solid $white;
       }
     }
   }
