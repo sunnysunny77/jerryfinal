@@ -7,7 +7,7 @@ footer {
         @include box(null, 0.5rem);
         &:hover,
         &:focus {
-            color: $white;
+            color: $color2;
         }
     }
 }

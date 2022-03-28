@@ -7,7 +7,7 @@
             @include box(null, 0.5rem);
             &:hover,
             &:focus {
-                color: $white;
+                color: $color2;
             }
         }
     }
@@ -24,7 +24,7 @@
     background-image: url(../images/template/title-bar.jpg);
     .title-bar-title,
     .menu-icon {
-        color: $white;
+        color: $color2;
     }
 }
 
