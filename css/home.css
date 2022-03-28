@@ -15,7 +15,7 @@ body::before {
   z-index: -999;
   background-blend-mode: screen;
   opacity: 0.5;
-  background-color: rgba(225, 202, 111, 0.5);
+  background-color: rgba(225, 202, 111, 0.125);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
