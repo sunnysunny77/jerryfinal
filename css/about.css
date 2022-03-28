@@ -74,8 +74,8 @@ main i {
 }
 
 .title-bar {
-  background-color: #4B7C6A;
   background-image: url(../images/template/title-bar.jpg);
+  background-size: cover;
 }
 .title-bar .title-bar-title,
 .title-bar .menu-icon {

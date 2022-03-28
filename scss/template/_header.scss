@@ -20,8 +20,8 @@
 }
 
 .title-bar {
-    background-color: $color4;
     background-image: url(../images/template/title-bar.jpg);
+    background-size: cover;
     .title-bar-title,
     .menu-icon {
         color: $white;
