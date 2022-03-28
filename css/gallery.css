@@ -209,6 +209,8 @@ footer .menu li a:hover, footer .menu li a:focus {
     right: calc(83.34% - 1rem);
     bottom: 0;
     left: 0;
+    background-blend-mode: screen;
+    background-color: rgba(225, 202, 111, 0.25);
     border-right: 1px solid #f8f8ff;
   }
 }
