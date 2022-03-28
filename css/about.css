@@ -55,17 +55,7 @@ main i {
 }
 
 .top-bar {
-  background-color: #e1ca6f;
-  position: relative;
-}
-.top-bar::before {
-  position: absolute;
-  content: "";
   background-image: url(../images/template/nav.jpg);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 .top-bar .top-bar-right ul {
   background: transparent;
@@ -104,20 +94,8 @@ main i {
 
 footer {
   padding-top: 15px;
-  background-color: #e1ca6f;
-  position: relative;
-  z-index: -997;
-  color: #2b241d;
-}
-footer::before {
-  position: absolute;
-  content: "";
   background-image: url(../images/template/nav.jpg);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -998;
+  color: #2b241d;
 }
 footer .menu li a {
   color: #2b241d;

@@ -1,19 +1,9 @@
 .top-bar {
-    background-color: $color3;
-    position: relative;
-    &::before {
-        position: absolute;
-        content: "";
-        background-image: url(../images/template/nav.jpg);
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
+    background-image: url(../images/template/nav.jpg);
     .top-bar-right ul {
         background: $transparent;
         li a {
-            color:  $color1;
+            color: $color1;
             @include box(null, 0.5rem);
             &:hover,
             &:focus {
