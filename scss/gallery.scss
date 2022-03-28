@@ -86,10 +86,6 @@
         right: calc(83.34% - 1rem );
         bottom: 0;
         left: 0;
-        z-index: -2;
-        background-blend-mode: screen;
-        opacity: 0.75;
-        background-color: rgba($color4, 0.025);
         border-right: 1px solid $white;
       }
     }

@@ -1,16 +1,26 @@
 footer {
     padding-top: 15px;
-    background-color: $color2;
-    background-image: url(../images/template/footer.jpg);
+    background-color: $color3;
+    position: relative;
+    z-index: -997;
+    color: $color1;
+    &::before {
+        position: absolute;
+        content: "";
+        background-image: url(../images/template/nav.jpg);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -998;
+
+    }
     .menu li a {
-        color: $white;
+        color: $color1;
         @include box(null, 0.5rem);
         &:hover,
         &:focus {
-            color: $color3;
+            color: $white;
         }
-    }
-    .inline-list {
-        color: $white;
     }
 }

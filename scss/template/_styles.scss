@@ -14,8 +14,12 @@ body {
         left: 0;
         z-index: -999;
         background-blend-mode: screen;
-        opacity: 0.75;
-        background-color: rgba($color2, 0.125);
+        opacity: 0.5;
+        background-color: rgba($color3, 0.5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
     }
 }
 
