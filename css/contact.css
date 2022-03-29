@@ -6,7 +6,7 @@
 }
 
 .tabs-content .button {
-  margin: 0;
+  margin: 1rem 0 0 0;
   color: #2b241d;
   background-color: rgba(75, 124, 106, 0.5);
 }
@@ -123,6 +123,9 @@ footer .menu li a:hover, footer .menu li a:focus {
 .tabs {
   background: transparent;
 }
+.tabs li {
+  background-color: rgba(138, 138, 138, 0.05);
+}
 .tabs li a {
   padding: 1%;
 }
@@ -137,6 +140,10 @@ footer .menu li a:hover, footer .menu li a:focus {
 
 .tabs-content {
   background: transparent;
+  border: none;
+}
+.tabs-content .is-active {
+  padding: 1rem 0;
 }
 .tabs-content textarea {
   resize: none;

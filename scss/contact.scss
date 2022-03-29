@@ -7,23 +7,31 @@ main a {
 
 .tabs {
     background: $transparent;
-    li a {
-        @include box(null, 1%);
-        h3 {
-            font-size: 16px;
-            @include box();
-            @extend %link;
+    li {
+        background-color: rgba($color6, 0.05);
+        a {
+            @include box(null, 1%);
+
+            h3 {
+                font-size: 16px;
+                @include box();
+                @extend %link;
+            }
         }
     }
-    .tabs-title>a[aria-selected=true] {
-        background-color: rgba($color6,0.1);
+    .tabs-title > a[aria-selected="true"] {
+        background-color: rgba($color6, 0.1);
     }
 }
 
 .tabs-content {
     background: $transparent;
+    border: none;
+    .is-active {
+    @include box(null, 1rem 0);
+    }
     .button {
-      @extend %button;
+        @extend %button;
     }
     textarea {
         resize: none;
@@ -37,4 +45,3 @@ blockquote,
 cite {
     color: lightShift($color6);
 }
-
