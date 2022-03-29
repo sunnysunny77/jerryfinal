@@ -239,8 +239,7 @@ footer .menu li a:hover, footer .menu li a:focus {
 
 section h4 {
   color: #2b241d;
-  margin: 0;
-  padding: 0;
+  margin: 1rem 0 0 0;
 }
 section .top-link {
   position: sticky;

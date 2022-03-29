@@ -105,7 +105,7 @@
 section {
   h4 {
     color: $color1;
-    @include box();
+    @include box(1rem 0 0 0 ,null);
   }
   .top-link {
     position: sticky;
