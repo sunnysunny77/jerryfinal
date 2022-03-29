@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto;
-  border-bottom: 1px solid $white;
   @include large_and_up {
     background-image: url("../images/gallery/fixed.png");
     background-size: cover;
@@ -16,36 +15,40 @@
     @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 250px auto);
     @include medium_and_up {
       background-color: $white;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
       @include setbox(null, null, null, 333px auto auto auto);
     }
-    @include large_and_up {   
+    @include large_and_up {
       @include setbox(null, null, null, calc(100vh - 178px) auto auto auto);
     }
   }
-  .menu {
-    @include setbox(null, fit-content, null, null);
-    a {
-      background-color: $white;
-      outline: none;
-      @include box(0, 0.2rem 0.5rem);
-      h3 {
-        @include box();
-        font-size: 16px;
-        @include medium_and_up {
-          font-size: 21.5px;
-        }
+}
+
+#tabs {
+  @include setbox(null, fit-content, null, null);
+  border-top: 1px solid $white;
+  position: absolute;
+  z-index: 999;
+  a {
+    background-color: lightShift($color3);
+    outline: none;
+    @include box(0, 0.2rem 0.5rem);
+    h3 {
+      @include box();
+      font-size: 16px;
+      @include medium_and_up {
+        font-size: 21.5px;
       }
     }
-    li:nth-child(1) a {
-      border-top-left-radius: 5px;
-    }
-    li:nth-child(5) a {
-      border-top-right-radius: 5px;
-    }
   }
-  .tabs-title > a[aria-selected="true"] {
+  li:nth-child(1) a {
+    border-bottom-left-radius: 5px;
+  }
+  li:nth-child(5) a {
+    border-bottom-right-radius: 5px;
+  }
+  .tabs-title.is-active a {
     background-color: $color1;
     h3 {
       color: $white;
@@ -57,21 +60,9 @@
   background-color: $transparent;
   border: none;
   @include box();
-  .menu {
-    a {
-      @include box();
-      @extend %link;
-    }
-  }
-  h4 {
-    color: $color1;
-    @include box();
-  }
-  .gallery {
-    @include box(1.5% 0, 5%);
-  }
-  @include large_and_up {
-    .is-active {
+  .tabs-panel.is-active {
+    @include box(null, 0 1rem);
+    @include large_and_up {
       position: relative;
       &::before {
         position: absolute;
@@ -85,6 +76,25 @@
       }
     }
   }
+}
+
+.sticky-ul {
+  @include setbox(null, fit-content, null, null);
+  @include large_and_up {
+    position: sticky;
+    top: 10px;
+  }
+  a {
+    @include box();
+    @extend %link;
+  }
+}
+
+section {
+  h4 {
+    color: $color1;
+    @include box();
+  }
   .top-link {
     position: sticky;
     top: 0;
@@ -96,5 +106,8 @@
         color: $color3;
       }
     }
+  }
+  .gallery {
+    @include box(1.5% 0, 5%);
   }
 }

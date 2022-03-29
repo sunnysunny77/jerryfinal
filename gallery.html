@@ -1,315 +1,384 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website - Gallery</title>
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/gallery.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website - Gallery</title>
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/icons/foundation-icons.css">
+        <link rel="stylesheet" href="css/gallery.css">
+    </head>
 
-<body>
+    <body>
 
-    <a class="hide" href="#main" accesskey="S"> Skip navigation </a>
+        <a class="hide" href="#main" accesskey="S"> Skip navigation </a>
 
-    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+        <div class="title-bar" data-responsive-toggle="responsive-menu"
+            data-hide-for="medium">
 
-        <button class="menu-icon" type="button" data-toggle="responsive-menu">
+            <button class="menu-icon" type="button"
+                data-toggle="responsive-menu">
 
-            <span class="hide">
+                <span class="hide">
+                    Menu
+                </span>
+
+            </button>
+
+            <div class="title-bar-title">
                 Menu
-            </span>
+            </div>
 
-        </button>
-
-        <div class="title-bar-title">
-            Menu
         </div>
 
-    </div>
+        <header class="top-bar" id="responsive-menu">
 
-    <header class="top-bar" id="responsive-menu">
+            <div class="top-bar-left show-for-medium">
 
-        <div class="top-bar-left show-for-medium">
-        
-            <span role="img" aria-label="logo" id="logo"></span>
-     
-        </div>
+                <span role="img" aria-label="logo" id="logo"></span>
 
-        <nav class="grid-x top-bar-right">
+            </div>
 
-            <ul class="cell text-center vertical medium-horizontal dropdown
+            <nav class="grid-x top-bar-right">
+
+                <ul class="cell text-center vertical medium-horizontal dropdown
                     menu" data-dropdown-menu>
-                <li class="align-self-middle"><a accesskey="1" href="./index.html">HOME</a></li>
-                <li class="align-self-middle"><a accesskey="2" href="./contact.html">CONTACT</a></li>
-                <li class="align-self-middle"><a accesskey="3" href="./gallery.html">
-                        <h1>GALLERY</h1>
+                    <li class="align-self-middle"><a accesskey="1"
+                            href="./index.html">HOME</a></li>
+                    <li class="align-self-middle"><a accesskey="2"
+                            href="./contact.html">CONTACT</a></li>
+                    <li class="align-self-middle"><a accesskey="3"
+                            href="./gallery.html">
+                            <h1>GALLERY</h1>
+                        </a></li>
+                    <li class="align-self-middle"><a accesskey="4"
+                            href="./about.html">ABOUT</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <div id="fixed-img" class="grid-y align-center" role="img"
+            aria-label="">
+
+            <h2 class="cell">Portfolio of work</h2>
+
+        </div>
+
+        <main id="main" class="grid-y">
+
+            <ul class="cell menu align-center" data-tabs id="tabs">
+
+                <li class="tabs-title is-active"><a href="#panel1">
+                        <h3>Film</h3>
                     </a></li>
-                <li class="align-self-middle"><a accesskey="4" href="./about.html">ABOUT</a></li>
+                <li class="tabs-title"><a data-tabs-target="panel2"
+                        href="#panel2">
+                        <h3>Theatre</h3>
+                    </a></li>
+                <li class="tabs-title"><a data-tabs-target="panel3"
+                        href="#panel3">
+                        <h3>Design</h3>
+                    </a></li>
+                <li class="tabs-title"><a data-tabs-target="panel4"
+                        href="#panel4">
+                        <h3>Poetry</h3>
+                    </a></li>
+                <li class="tabs-title"><a data-tabs-target="panel5"
+                        href="#panel5">
+                        <h3>Sculptures</h3>
+                    </a></li>
             </ul>
 
-        </nav>
+            <div class="tabs-content text-center" data-tabs-content="tabs">
 
-    </header>
+                <div class="tabs-panel is-active" id="panel1">
 
-    <div id="fixed-img" class="grid-y align-center" role="img" aria-label="">
-        <h2 id="top" class="cell">Portfolio of work</h2>
+                    <div class="grid-x align-right">
 
-        <ul class="cell menu align-center" data-tabs id="tabs">
+                        <ul class="cell sticky-ul small-12 large-2 text-left
+                            vertical menu
+                            align-top">
+                            <li> <i class="cell text-left fi-thumbnails"></i></li>
+                            <li>Productions:
+                                <ul class="nested vertical bullet menu">
+                                    <li><i class="fi-list"></i><a
+                                            href="#storyboard">Storyboarding</a></li>
+                                    <li><i class="fi-list"></i><a
+                                            href="#concept">Concept art</a></li>
+                                </ul>
+                            </li>
+                            <li><i class="fi-list"></i><a href="#independent">Independent
+                                    creations</a></li>
+                            <li> * Photoshop images are hand drawn, all work is
+                                drawn and illustrated by hand
+                                digital or not.</li>
+                        </ul>
 
-            <li class="tabs-title is-active"><a href="#panel1">
-                    <h3>Film</h3>
-                </a></li>
-            <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">
-                    <h3>Theatre</h3>
-                </a></li>
-            <li class="tabs-title"><a data-tabs-target="panel3" href="#panel3">
-                    <h3>Design</h3>
-                </a></li>
-            <li class="tabs-title"><a data-tabs-target="panel4" href="#panel4">
-                    <h3>Poetry</h3>
-                </a></li>
-            <li class="tabs-title"><a data-tabs-target="panel5" href="#panel5">
-                    <h3>Sculptures</h3>
-                </a></li>
-        </ul>
+                        <div class="cell small-12 large-10 grid-x
+                            text-center align-center">
 
-    </div>
+                            <section class="cell grid-x
+                                text-center align-center">
 
-    <main id="main" class="grid-y">
+                                <h4 id="storyboard" class="cell text-right">Storyboarding</h4>
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="./images/gallery/d18.jpg" alt="">
 
-        <div class="tabs-content text-center" data-tabs-content="tabs">
-            
-            <div class="tabs-panel is-active" id="panel1">
+                                <img class="gallery"
+                                    src="./images/gallery/d22.jpg" alt="">
 
-                <div class="grid-x align-right">
+                                <img class="gallery"
+                                    src="https://via.placeholder.com/500x500"
+                                    alt="">
 
-                    <i class="cell text-left fi-thumbnails"></i>
+                            </section>
 
-                    <ul class="cell small-12 large-2 text-left vertical menu align-top">
-                        <li>Productions:
-                            <ul class="nested vertical bullet menu">
-                                <li><i class="fi-list"></i><a href="#storyboard">Storyboarding</a></li>
-                                <li><i class="fi-list"></i><a href="#concept">Concept art</a></li>
-                            </ul>
-                        </li>
-                        <li><i class="fi-list"></i><a href="#independent">Independent creations</a></li>
-                        <li> * Photoshop images are hand drawn, all work is drawn and illustrated by hand
-                            digital or not.</li>
+                            <section class="cell grid-x
+                                text-center align-center">
+
+                                <h4 id="concept" class="cell text-right">Concept
+                                    art</h4>
+
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="./images/gallery/d30.jpg" alt="">
+                            </section>
+
+                            <section class="cell grid-x
+                                text-center
+                                align-center">
+
+                                <h4 id="independent" class="cell text-right">Independent
+                                    creations</h4>
+
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="https://via.placeholder.com/500x500"
+                                    alt="">
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="tabs-panel" id="panel2">
+
+                    <div class="grid-x align-right">
+
+                        <ul class="cell sticky-ul small-12 large-2 text-left
+                            vertical menu
+                            align-top">
+                            <li> <i class="cell text-left fi-thumbnails"></i></li>
+                            <li>Theatre:</li>
+                            <li> * Photoshop images are hand drawn, all work is
+                                drawn and illustrated by hand
+                                digital or not.</li>
+                        </ul>
+
+                        <div class="cell small-12 large-10 grid-x
+                            text-center align-center">
+
+                            <section class="cell small-12 large-10 grid-x
+                                text-center align-center">
+
+                                <h4 class="cell text-right"> Theatre</h4>
+
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="https://via.placeholder.com/500x500"
+                                    alt="">
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="tabs-panel" id="panel3">
+
+                    <div class="grid-x align-right">
+
+                        <ul class="cell sticky-ul small-12 large-2 text-left
+                            vertical menu
+                            align-top">
+                            <li> <i class="cell text-left fi-thumbnails"></i></li>
+                            <li>Design:</li>
+                            <li> * Photoshop images are hand drawn, all work is
+                                drawn and illustrated by hand
+                                digital or not.</li>
+                        </ul>
+
+                        <div class="cell small-12 large-10 grid-x
+                            text-center align-center">
+
+                            <section class="cell small-12 large-10 grid-x
+                                text-center align-center">
+
+                                <h4 class="cell text-right">Design</h4>
+
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="https://via.placeholder.com/500x500"
+                                    alt="">
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="tabs-panel" id="panel4">
+
+                    <div class="grid-x align-right">
+
+                        <ul class="cell sticky-ul small-12 large-2 text-left
+                        vertical menu
+                        align-top">
+                            <li> <i class="cell text-left fi-thumbnails"></i></li>
+                            <li>Poetry:
+                                <ul class="nested vertical bullet menu">
+                                    <li><i class="fi-list"></i><a
+                                            href="#poetry">Poems</a></li>
+                                    <li><i class="fi-list"></i><a
+                                            href="#illustrated-poetry">Illustrated
+                                            Poetry</a></li>
+                                </ul>
+                            </li>
+                            <li> * Photoshop images are hand drawn, all work
+                                is
+                                drawn and illustrated by hand
+                                digital or not.</li>
+                        </ul>
+
+                        <div class="cell small-12 large-10 grid-x
+                            text-center align-center">
+
+
+
+                            <section class="cell small-12 large-10 grid-x
+                                text-center align-center">
+
+                                <h4 id="poetry" class="cell text-right">Poems</h4>
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="https://via.placeholder.com/500x500"
+                                    alt="">
+
+                            </section>
+
+                            <section class="cell small-12 large-10 grid-x
+                                text-center align-center">
+
+                                <h4 id="illustrated-poetry" class="cell
+                                    text-right">Illustrated
+                                    Poetry</h4>
+
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="https://via.placeholder.com/500x500"
+                                    alt="">
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="tabs-panel" id="panel5">
+
+                    <div class="grid-x align-right">
+
+                        <ul class="cell sticky-ul small-12 large-2 text-left
+                            vertical menu
+                            align-top">
+                            <li> <i class="cell text-left fi-thumbnails"></i></li>
+                            <li>Sculptures:</li>
+                            <li> * Photoshop images are hand drawn, all work is
+                                drawn and illustrated by hand
+                                digital or not.</li>
+                        </ul>
+
+                        <div class="cell small-12 large-10 grid-x
+                            text-center align-center">
+
+                            <section class="cell small-12 large-10 grid-x
+                                text-center align-center">
+
+                                <h4 class="cell text-right">Sculptures</h4>
+
+                                <a aria-label="Go to top" class="cell top-link
+                                    text-right" href="#main"><i
+                                        class="fi-eject"></i></a>
+                                <img class="gallery"
+                                    src="https://via.placeholder.com/500x500"
+                                    alt="">
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="grid-x grid-padding-x align-justify">
+
+            <ul class="cell shrink align-self-middle no-bullet inline-list">
+                <li>
+                    <i class="fi-link"></i>
+                    <ul class="vertical menu text-left">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                        <li><a href="./gallery.html">GALLERY</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
                     </ul>
+                </li>
+            </ul>
 
-                    <section class="cell small-12 large-10  grid-x text-center align-center">
-
-                        <h4 id="storyboard" class="cell text-right">Storyboarding</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="./images/gallery/d18.jpg" alt="">
-
-                        <img class="gallery" src="./images/gallery/d22.jpg" alt="">
-
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-
-                    </section>
-
-                    <section class="cell small-12 large-10  grid-x text-center align-center">
-
-                        <h4 id="concept" class="cell text-right">Concept art</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="./images/gallery/d30.jpg" alt="">
-
-                    </section>
-
-                    <section class="cell small-12 large-10  grid-x text-center
-                        align-center">
-
-                        <h4 id="independent" class="cell text-right">Independent creations</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-
-                    </section>
-
-                </div>
-
-            </div>
-
-            <div class="tabs-panel" id="panel2">
-
-                <div class="grid-x align-right">
-
-                    <i class="cell text-left fi-thumbnails"></i>
-
-                    <p class="cell small-12 large-2 text-left "> * Photoshop images are hand drawn, all work is drawn
-                        and illustrated by hand
-                        digital or not.</p>
-
-                    <section class="cell small-12 large-10  grid-x text-center align-center">
-
-                        <h4 class="cell text-right"> Theatre</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-
-                    </section>
-
-                </div>
-
-            </div>
-
-            <div class="tabs-panel" id="panel3">
-                <div class="grid-x align-right">
-
-                    <i class="cell text-left fi-thumbnails"></i>
-
-                    <p class="cell small-12 large-2 text-left "> * Photoshop images are hand drawn, all work is drawn
-                        and illustrated by hand
-                        digital or not.</p>
-
-                    <section class="cell small-12 large-10  grid-x text-center align-center">
-
-                        <h4 class="cell text-right">Design</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-
-                    </section>
-
-                </div>
-
-            </div>
-
-            <div class="tabs-panel" id="panel4">
-
-                <div class="grid-x align-right">
-
-                    <i class="cell text-left fi-thumbnails"></i>
-
-                    <ul class="cell small-12 large-2 text-left vertical menu align-top">
-                        <li>Poetry:
-                            <ul class="nested vertical bullet menu">
-                                <li><i class="fi-list"></i><a href="#poetry">Poems</a></li>
-                                <li><i class="fi-list"></i><a href="#illustrated-poetry">Illustrated Poetry</a></li>
-                            </ul>
-                        </li>
-                        <li> * Photoshop images are hand drawn, all work is drawn and illustrated by hand
-                            digital or not.</li>
-                    </ul>
-
-                    <section class="cell small-12 large-10  grid-x text-center align-center">
-
-                        <h4 id="poetry"  class="cell text-right">Poems</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-
-                    </section>
-
-                    <section  class="cell small-12 large-10  grid-x text-center align-center">
-
-                        <h4 id="illustrated-poetry" class="cell text-right">Illustrated Poetry</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-
-                    </section>
-
-                </div>
-
-            </div>
-
-            <div class="tabs-panel" id="panel5">
-
-                <div class="grid-x align-right">
-
-                    <i class="cell text-left fi-thumbnails"></i>
-
-                    <p class="cell small-12 large-2 text-left"> * Photoshop images are hand drawn, all work is drawn
-                        and illustrated by hand
-                        digital or not.</p>
-
-                    <section class="cell small-12 large-10  grid-x text-center align-center">
-
-                        <h4 class="cell text-right">Sculptures</h4>
-
-                        <a  aria-label="Go to top"class="cell top-link text-right" href="#top"><i class="fi-eject"></i></a>
-
-                        <img class="gallery" src="https://via.placeholder.com/500x500" alt="">
-
-                    </section>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </main>
-
-    <footer class="grid-x grid-padding-x align-justify">
-
-        <ul class="cell shrink align-self-middle no-bullet inline-list">
-            <li>
-                <i class="fi-link"></i>
-                <ul class="vertical menu text-left">
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./contact.html">CONTACT</a></li>
-                    <li><a href="./gallery.html">GALLERY</a></li>
-                    <li><a href="./about.html">ABOUT</a></li>
-                </ul>
-            </li>
-        </ul>
-
-        <ul class="cell no-bullet inline-list shrink
+            <ul class="cell no-bullet inline-list shrink
                 align-self-middle text-center">
-            <li>Portfolio Website</li>
-            <li>&copy; D.C</li>
-        </ul>
+                <li>Portfolio Website</li>
+                <li>&copy; D.C</li>
+            </ul>
 
-    </footer>
+        </footer>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-</body>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 
 </html>
