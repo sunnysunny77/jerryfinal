@@ -51,12 +51,12 @@
     }
     &:nth-child(1) a {
       @include medium_and_up {
-        border-bottom-left-radius: 7.5px;
+        border-bottom-left-radius: 10px;
       }
     }
     &:nth-child(6) a {
       @include medium_and_up {
-        border-bottom-right-radius: 7.5px;
+        border-bottom-right-radius: 10px;
       }
     }
   }

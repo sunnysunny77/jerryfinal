@@ -182,12 +182,12 @@ footer .menu li a:hover, footer .menu li a:focus {
 }
 @media screen and (min-width: 40em) {
   #tabs li:nth-child(1) a {
-    border-bottom-left-radius: 7.5px;
+    border-bottom-left-radius: 10px;
   }
 }
 @media screen and (min-width: 40em) {
   #tabs li:nth-child(6) a {
-    border-bottom-right-radius: 7.5px;
+    border-bottom-right-radius: 10px;
   }
 }
 #tabs .tabs-title.is-active a {
