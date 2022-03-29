@@ -83,7 +83,8 @@
         right: calc(83.34% - 1rem);
         bottom: 0;
         left: 0;
-        background-color: rgba($color3, 0.125);
+        background-color: rgba($color3, 0.5);
+        background-image: url(../images/template/washi.png);
         border-right: 1px solid $white;
       }
     }
@@ -91,7 +92,7 @@
 }
 
 .sticky-ul {
-  @include setbox(null, fit-content, null, 1rem 0 0 0);
+  @include setbox(null, fit-content, 0 0.5rem 0 0, 1rem 0 0 0);
   @include large_and_up {
     position: sticky;
     top: 10px;

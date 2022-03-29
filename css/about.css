@@ -61,7 +61,8 @@ main i {
 }
 
 .top-bar {
-  background-image: url(../images/template/nav.jpg);
+  background-image: url(../images/template/washi.png);
+  background-color: #e1ca6f;
 }
 .top-bar .top-bar-right ul {
   background: transparent;
@@ -82,8 +83,8 @@ main i {
 }
 
 .title-bar {
-  background-image: url(../images/template/title-bar.jpg);
-  background-size: cover;
+  background-image: url(../images/template/washi.png);
+  background-color: #e1ca6f;
 }
 .title-bar .title-bar-title,
 .title-bar .menu-icon {
@@ -92,7 +93,8 @@ main i {
 
 footer {
   padding-top: 15px;
-  background-image: url(../images/template/nav.jpg);
+  background-image: url(../images/template/washi.png);
+  background-color: #e1ca6f;
   color: #2b241d;
 }
 footer .menu li a {

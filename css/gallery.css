@@ -68,7 +68,8 @@ main i {
 }
 
 .top-bar {
-  background-image: url(../images/template/nav.jpg);
+  background-image: url(../images/template/washi.png);
+  background-color: #e1ca6f;
 }
 .top-bar .top-bar-right ul {
   background: transparent;
@@ -89,8 +90,8 @@ main i {
 }
 
 .title-bar {
-  background-image: url(../images/template/title-bar.jpg);
-  background-size: cover;
+  background-image: url(../images/template/washi.png);
+  background-color: #e1ca6f;
 }
 .title-bar .title-bar-title,
 .title-bar .menu-icon {
@@ -99,7 +100,8 @@ main i {
 
 footer {
   padding-top: 15px;
-  background-image: url(../images/template/nav.jpg);
+  background-image: url(../images/template/washi.png);
+  background-color: #e1ca6f;
   color: #2b241d;
 }
 footer .menu li a {
@@ -217,13 +219,15 @@ footer .menu li a:hover, footer .menu li a:focus {
     right: calc(83.34% - 1rem);
     bottom: 0;
     left: 0;
-    background-color: rgba(225, 202, 111, 0.125);
+    background-color: rgba(225, 202, 111, 0.5);
+    background-image: url(../images/template/washi.png);
     border-right: 1px solid #f8f8ff;
   }
 }
 
 .sticky-ul {
   height: fit-content;
+  padding: 0 0.5rem 0 0;
   margin: 1rem 0 0 0;
 }
 @media screen and (min-width: 64em) {

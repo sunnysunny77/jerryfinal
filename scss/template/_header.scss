@@ -1,5 +1,6 @@
 .top-bar {
-    background-image: url(../images/template/nav.jpg);
+    background-image: url(../images/template/washi.png);
+    background-color: $color3;
     .top-bar-right ul {
         background: $transparent;
         li a {
@@ -23,8 +24,8 @@
 }
 
 .title-bar {
-    background-image: url(../images/template/title-bar.jpg);
-    background-size: cover;
+    background-image: url(../images/template/washi.png);
+    background-color: $color3;
     .title-bar-title,
     .menu-icon {
         color: $white;
