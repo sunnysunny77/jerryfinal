@@ -154,27 +154,41 @@ footer .menu li a:hover, footer .menu li a:focus {
     z-index: 999;
   }
 }
-#tabs a {
+#tabs li {
+  width: 50%;
+  height: fit-content;
+}
+@media screen and (min-width: 40em) {
+  #tabs li {
+    width: unset;
+  }
+}
+#tabs li a {
   background-color: #ecdda2;
   outline: none;
-  margin: 0;
+  width: 100%;
   padding: 0.2rem 0.5rem;
+  margin: 0;
 }
-#tabs a h3 {
+#tabs li a h3 {
   margin: 0;
   padding: 0;
   font-size: 16px;
 }
 @media screen and (min-width: 40em) {
-  #tabs a h3 {
+  #tabs li a h3 {
     font-size: 21.5px;
   }
 }
-#tabs li:nth-child(1) a {
-  border-bottom-left-radius: 5px;
+@media screen and (min-width: 40em) {
+  #tabs li:nth-child(1) a {
+    border-bottom-left-radius: 7.5px;
+  }
 }
-#tabs li:nth-child(5) a {
-  border-bottom-right-radius: 5px;
+@media screen and (min-width: 40em) {
+  #tabs li:nth-child(6) a {
+    border-bottom-right-radius: 7.5px;
+  }
 }
 #tabs .tabs-title.is-active a {
   background-color: #2b241d;
@@ -210,6 +224,7 @@ footer .menu li a:hover, footer .menu li a:focus {
 
 .sticky-ul {
   height: fit-content;
+  margin: 1rem 0 0 0;
 }
 @media screen and (min-width: 64em) {
   .sticky-ul {

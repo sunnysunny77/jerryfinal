@@ -32,23 +32,33 @@
     position: absolute;
     z-index: 999;
   }
-  a {
-    background-color: lightShift($color3);
-    outline: none;
-    @include box(0, 0.2rem 0.5rem);
-    h3 {
-      @include box();
-      font-size: 16px;
-      @include medium_and_up {
-        font-size: 21.5px;
+  li {
+    @include setbox(50%, fit-content, null, null);
+    @include medium_and_up {
+      @include setbox(unset, null, null, null);
+    }
+    a {
+      background-color: lightShift($color3);
+      outline: none;
+      @include setbox(100%, null,  0.2rem 0.5rem, 0);
+      h3 {
+        @include box();
+        font-size: 16px;
+        @include medium_and_up {
+          font-size: 21.5px;
+        }
       }
     }
-  }
-  li:nth-child(1) a {
-    border-bottom-left-radius: 5px;
-  }
-  li:nth-child(5) a {
-    border-bottom-right-radius: 5px;
+    &:nth-child(1) a {
+      @include medium_and_up {
+        border-bottom-left-radius: 7.5px;
+      }
+    }
+    &:nth-child(6) a {
+      @include medium_and_up {
+        border-bottom-right-radius: 7.5px;
+      }
+    }
   }
   .tabs-title.is-active a {
     background-color: $color1;
@@ -81,7 +91,7 @@
 }
 
 .sticky-ul {
-  @include setbox(null, fit-content, null, null);
+  @include setbox(null, fit-content, null, 1rem 0 0 0);
   @include large_and_up {
     position: sticky;
     top: 10px;
