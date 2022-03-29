@@ -28,8 +28,10 @@
 #tabs {
   @include setbox(null, fit-content, null, null);
   border-top: 1px solid $white;
-  position: absolute;
-  z-index: 999;
+  @include large_and_up {
+    position: absolute;
+    z-index: 999;
+  }
   a {
     background-color: lightShift($color3);
     outline: none;
