@@ -11,9 +11,10 @@ $(document).ready(function() {
             url: url,
             data: form.serialize(),
             success: function (response) {
+                const text = res.text();
                 res.html(response);
                 setTimeout(function (){
-                    res.html("Employment Form");
+                    res.html(text);
                     sub.prop( "disabled", false );
                     form.trigger("reset");
                 }, 5000);
@@ -32,9 +33,10 @@ $(document).ready(function() {
             url: url,
             data: form.serialize(),
             success: function (response) {
+                const text = res.text();
                 res.html(response);
                 setTimeout(function (){
-                    res.html("Purchase Form");
+                    res.html(text);
                     sub.prop( "disabled", false );
                     form.trigger("reset");
                 }, 5000);
@@ -53,9 +55,10 @@ $(document).ready(function() {
             url: url,
             data: form.serialize(),
             success: function (response) {
+                const text = res.text();
                 res.html(response);
                 setTimeout(function (){
-                    res.html("Enquiry Form");
+                    res.html(text);
                     sub.prop( "disabled", false );
                     form.trigger("reset");
                 }, 5000);
