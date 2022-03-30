@@ -162,6 +162,12 @@ footer .menu li a:hover, footer .menu li a:focus {
 }
 @media screen and (min-width: 40em) {
   #tabs li {
+    width: 16.66%;
+    height: fit-content;
+  }
+}
+@media screen and (min-width: 64em) {
+  #tabs li {
     width: unset;
   }
 }
@@ -177,17 +183,17 @@ footer .menu li a:hover, footer .menu li a:focus {
   padding: 0;
   font-size: 16px;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 64em) {
   #tabs li a h3 {
     font-size: 21.5px;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 64em) {
   #tabs li:nth-child(1) a {
     border-bottom-left-radius: 10px;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 64em) {
   #tabs li:nth-child(6) a {
     border-bottom-right-radius: 10px;
   }
@@ -208,7 +214,7 @@ footer .menu li a:hover, footer .menu li a:focus {
 .tabs-content .tabs-panel.is-active {
   padding: 0 1rem;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 40em) {
   .tabs-content .tabs-panel.is-active {
     position: relative;
   }
@@ -216,7 +222,7 @@ footer .menu li a:hover, footer .menu li a:focus {
     position: absolute;
     content: "";
     top: 0;
-    right: calc(83.34% - 1rem);
+    right: calc(75% - 1rem);
     bottom: 0;
     left: 0;
     background-color: rgba(225, 202, 111, 0.5);
@@ -224,13 +230,19 @@ footer .menu li a:hover, footer .menu li a:focus {
     border-right: 1px solid #f8f8ff;
   }
 }
+@media screen and (min-width: 40em) and (min-width: 64em) {
+  .tabs-content .tabs-panel.is-active::before {
+    right: calc(83.34% - 1rem);
+  }
+}
 
 .sticky-ul {
   height: fit-content;
   padding: 0 0.5rem 0 0;
   margin: 1rem 0 0 0;
+  font-size: 15px;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 40em) {
   .sticky-ul {
     position: sticky;
     top: 10px;
@@ -257,8 +269,12 @@ section .top-link i:hover, section .top-link i:focus {
   color: #e1ca6f;
 }
 section .gallery {
-  margin: 1.5% 0;
-  padding: 5%;
+  padding: 2.5rem 1rem;
+}
+@media screen and (min-width: 40em) {
+  section .gallery {
+    padding: 2.5rem 5rem;
+  }
 }
 
 /*# sourceMappingURL=gallery.css.map */

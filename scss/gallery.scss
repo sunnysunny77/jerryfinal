@@ -35,6 +35,9 @@
   li {
     @include setbox(50%, fit-content, null, null);
     @include medium_and_up {
+      @include setbox(16.66%, fit-content, null, null);
+    }
+    @include large_and_up {
       @include setbox(unset, null, null, null);
     }
     a {
@@ -44,18 +47,18 @@
       h3 {
         @include box();
         font-size: 16px;
-        @include medium_and_up {
+        @include large_and_up {
           font-size: 21.5px;
         }
       }
     }
     &:nth-child(1) a {
-      @include medium_and_up {
+      @include large_and_up {
         border-bottom-left-radius: 10px;
       }
     }
     &:nth-child(6) a {
-      @include medium_and_up {
+      @include large_and_up {
         border-bottom-right-radius: 10px;
       }
     }
@@ -74,13 +77,16 @@
   @include box();
   .tabs-panel.is-active {
     @include box(null, 0 1rem);
-    @include large_and_up {
+    @include medium_and_up {
       position: relative;
       &::before {
         position: absolute;
         content: "";
         top: 0;
-        right: calc(83.34% - 1rem);
+        right: calc(75% - 1rem);
+        @include large_and_up {
+          right: calc(83.34% - 1rem);
+        }
         bottom: 0;
         left: 0;
         background-color: rgba($color3, 0.5);
@@ -93,7 +99,8 @@
 
 .sticky-ul {
   @include setbox(null, fit-content, 0 0.5rem 0 0, 1rem 0 0 0);
-  @include large_and_up {
+  font-size: 15px;
+  @include medium_and_up {
     position: sticky;
     top: 10px;
   }
@@ -121,6 +128,9 @@ section {
     }
   }
   .gallery {
-    @include box(1.5% 0, 5%);
+    @include box(null, 2.5rem 1rem);
+    @include medium_and_up {
+      @include box(null, 2.5rem 5rem);
+    }
   }
 }
