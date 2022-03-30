@@ -156,21 +156,6 @@ footer .menu li a:hover, footer .menu li a:focus {
     z-index: 999;
   }
 }
-#tabs li {
-  width: 50%;
-  height: fit-content;
-}
-@media screen and (min-width: 40em) {
-  #tabs li {
-    width: 16.66%;
-    height: fit-content;
-  }
-}
-@media screen and (min-width: 64em) {
-  #tabs li {
-    width: unset;
-  }
-}
 #tabs li a {
   background-color: #ecdda2;
   outline: none;

@@ -33,13 +33,7 @@
     z-index: 999;
   }
   li {
-    @include setbox(50%, fit-content, null, null);
-    @include medium_and_up {
-      @include setbox(16.66%, fit-content, null, null);
-    }
-    @include large_and_up {
-      @include setbox(unset, null, null, null);
-    }
+   
     a {
       background-color: lightShift($color3);
       outline: none;
