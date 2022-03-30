@@ -1,7 +1,7 @@
-.sticky-ul a {
+.sticky-ul li a {
   color: #4E7F3D;
 }
-.sticky-ul a:hover, .sticky-ul a:focus {
+.sticky-ul li a:hover, .sticky-ul li a:focus {
   color: #566CAE;
 }
 
@@ -233,9 +233,15 @@ footer .menu li a:hover, footer .menu li a:focus {
     top: 10px;
   }
 }
-.sticky-ul a {
+.sticky-ul li a {
   margin: 0;
   padding: 0;
+}
+.sticky-ul li:nth-child(2)::first-line {
+  text-decoration: underline;
+}
+.sticky-ul li:last-child {
+  font-size: 12.5px;
 }
 
 section h4 {

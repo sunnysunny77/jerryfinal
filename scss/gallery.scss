@@ -36,7 +36,7 @@
     a {
       background-color: lightShift($color3);
       outline: none;
-      @include setbox(100%, null,  0.2rem 0.5rem, 0);
+      @include setbox(100%, null, 0.2rem 0.5rem, 0);
       h3 {
         @include box();
         font-size: 16px;
@@ -97,16 +97,24 @@
     position: sticky;
     top: 10px;
   }
-  a {
-    @include box();
-    @extend %link;
+  li {
+    a {
+      @include box();
+      @extend %link;
+    }
+    &:nth-child(2)::first-line {
+      text-decoration: underline;
+    }
+    &:last-child {
+      font-size: 12.5px;
+    }
   }
 }
 
 section {
   h4 {
     color: $color1;
-    @include box(1rem 0 0 0 ,null);
+    @include box(1rem 0 0 0, null);
   }
   .top-link {
     position: sticky;
