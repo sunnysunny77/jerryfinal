@@ -83,6 +83,7 @@ main i {
 }
 
 .title-bar {
+  background-image: url(../images/template/title-bar.png);
   background-color: #e1ca6f;
 }
 .title-bar .title-bar-title,
