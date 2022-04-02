@@ -225,7 +225,8 @@ footer .menu li a:hover, footer .menu li a:focus {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;
-  height: 205px;
+  min-height: 220px;
+  color: #2b241d;
   padding: 0 0.5rem 0 0;
   margin: 1rem 0 0 0;
   font-size: 15px;
@@ -240,9 +241,11 @@ footer .menu li a:hover, footer .menu li a:focus {
   margin: 0;
   padding: 0;
 }
+.sticky-ul li:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
 .sticky-ul li:nth-child(2)::first-line {
   text-decoration: underline;
-  color: #2b241d;
 }
 .sticky-ul li.last {
   font-size: 12.5px;
