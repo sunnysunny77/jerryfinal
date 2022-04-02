@@ -73,14 +73,14 @@
   border: none;
   @include box();
   .tabs-panel.is-active {
-    @include box(null, 0 1rem);
+    @include box();
     @include medium_and_up {
       position: relative;
       &::before {
         position: absolute;
         content: "";
         top: 0;
-        right: calc(75% - 1rem);
+        right: 75%;
         @include large_and_up {
           right: calc(83.34% - 1rem);
         }
@@ -100,11 +100,11 @@
   background-repeat: no-repeat;
   background-position: top right;
   color: $color1;
-  @include setbox(null,205px, null, 1rem 0 0 0);
-  font-size: 15px;
+  @include setbox(null,221px, 1rem 1rem 0 1rem, null);
+  font-size: 14.5px;
   @include medium_and_up {
     position: sticky;
-    top: 10px;
+    top: 0;
   }
   li {
     a {
@@ -130,11 +130,12 @@
 section {
   h4 {
     color: $color1;
-    @include box(1rem 0 0 0, null);
+    @include box(1rem 2rem 0 0, null);
   }
   .top-link {
     position: sticky;
     top: 0;
+    @include box(0 2rem 0 0, null);
     i {
       font-size: medium;
       color: $color4;
@@ -145,7 +146,7 @@ section {
     }
   }
   .gallery {
-    @include box(null, 2.5rem 1.5rem);
+    @include box(null, 2.5rem 2rem);
     @include medium_and_up {
       @include box(null, 2.5rem 5rem);
     }
