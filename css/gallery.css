@@ -239,9 +239,13 @@ footer .menu li a:hover, footer .menu li a:focus {
 }
 .sticky-ul li:nth-child(2)::first-line {
   text-decoration: underline;
+  color: #2b241d;
 }
 .sticky-ul li.last {
   font-size: 12.5px;
+}
+.sticky-ul .fi-list {
+  font-size: 11px;
 }
 
 section h4 {
