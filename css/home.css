@@ -35,7 +35,7 @@ h1 {
 
 h2 {
   margin: 1rem auto;
-  color: #504336;
+  color: #493e32;
   font-style: oblique;
   text-shadow: 0 0 2.5px #2b241d;
 }
@@ -48,7 +48,7 @@ h2 {
 h3,
 h4,
 h5 {
-  color: #504336;
+  color: #493e32;
 }
 
 @media screen and (min-width: 40em) {
@@ -61,10 +61,9 @@ main i {
 }
 
 .top-bar {
-  background-image: url(../images/template/washi.png);
-  background-repeat: no-repeat;
-  background-position: center right;
+  background-image: url(../images/template/paper.png);
   background-color: #e1ca6f;
+  background-blend-mode: screen;
 }
 .top-bar .top-bar-right ul {
   background: transparent;
@@ -85,6 +84,8 @@ main i {
 }
 
 .title-bar {
+  background-image: url(../images/template/paper.png);
+  background-blend-mode: screen;
   background-color: #e1ca6f;
 }
 .title-bar .title-bar-title,
@@ -93,9 +94,13 @@ main i {
 }
 
 footer {
+  background-image: url(../images/template/paper.png);
+  background-blend-mode: screen;
   padding-top: 15px;
   background-color: #e1ca6f;
   color: #2b241d;
+  position: relative;
+  z-index: 1;
 }
 footer .menu li a {
   color: #2b241d;
@@ -103,6 +108,18 @@ footer .menu li a {
 }
 footer .menu li a:hover, footer .menu li a:focus {
   color: #f8f8ff;
+}
+footer::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background-image: url(../images/template/washi.png);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /* home */

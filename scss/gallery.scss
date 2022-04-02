@@ -12,6 +12,7 @@
     background-attachment: fixed;
   }
   h2 {
+    background-image: url(../images/template/paper.png);
     @include setbox(fit-content, fit-content, 0 1rem, 1rem auto 250px auto);
     @include medium_and_up {
       background-color: $white;
@@ -35,6 +36,8 @@
   li {
     a {
       background-color: lightShift($color3);
+      background-image: url(../images/template/paper.png);
+      background-blend-mode: screen;
       outline: none;
       @include setbox(100%, null, 0.2rem 0.5rem, 0);
       h3 {
@@ -58,6 +61,7 @@
   }
   .tabs-title.is-active a {
     background-color: $color1;
+    background-image: none;
     h3 {
       color: $white;
     }
@@ -82,7 +86,8 @@
         }
         bottom: 0;
         left: 0;
-        background-color: rgba($color6,0.25);
+        background-color: rgba($color6,0.35);
+        background-image: url(../images/template/paper.png);
         border-right: 1px solid $white;
       }
     }
@@ -94,9 +99,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;
-  min-height: 220px;
   color: $color1;
-  @include setbox(null,null, 0 0.5rem 0 0, 1rem 0 0 0);
+  @include setbox(null,205px, null, 1rem 0 0 0);
   font-size: 15px;
   @include medium_and_up {
     position: sticky;
@@ -115,6 +119,7 @@
     }
     &.last {
       font-size: 12.5px;
+      color: darkShift($color6);
     }
   }
   .fi-list {
