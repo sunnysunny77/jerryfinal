@@ -145,7 +145,7 @@ section {
     }
   }
   .gallery {
-    @include box(null, 2.5rem 1rem);
+    @include box(null, 2.5rem 1.5rem);
     @include medium_and_up {
       @include box(null, 2.5rem 5rem);
     }
