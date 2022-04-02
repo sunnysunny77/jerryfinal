@@ -1,5 +1,7 @@
 .top-bar {
     background-image: url(../images/template/washi.png);
+    background-repeat: no-repeat;
+    background-position: center right;
     background-color: $color3;
     .top-bar-right ul {
         background: $transparent;
@@ -24,7 +26,6 @@
 }
 
 .title-bar {
-    background-image: url(../images/template/title-bar.png);
     background-color: $color3;
     .title-bar-title,
     .menu-icon {

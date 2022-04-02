@@ -69,6 +69,8 @@ main i {
 
 .top-bar {
   background-image: url(../images/template/washi.png);
+  background-repeat: no-repeat;
+  background-position: center right;
   background-color: #e1ca6f;
 }
 .top-bar .top-bar-right ul {
@@ -90,7 +92,6 @@ main i {
 }
 
 .title-bar {
-  background-image: url(../images/template/title-bar.png);
   background-color: #e1ca6f;
 }
 .title-bar .title-bar-title,
@@ -100,7 +101,6 @@ main i {
 
 footer {
   padding-top: 15px;
-  background-image: url(../images/template/washi.png);
   background-color: #e1ca6f;
   color: #2b241d;
 }
@@ -211,7 +211,6 @@ footer .menu li a:hover, footer .menu li a:focus {
     bottom: 0;
     left: 0;
     background-color: rgba(138, 138, 138, 0.25);
-    background-image: url(../images/template/washi.png);
     border-right: 1px solid #f8f8ff;
   }
 }
@@ -222,7 +221,11 @@ footer .menu li a:hover, footer .menu li a:focus {
 }
 
 .sticky-ul {
-  height: fit-content;
+  background-image: url(../images/template/side.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 205px;
   padding: 0 0.5rem 0 0;
   margin: 1rem 0 0 0;
   font-size: 15px;

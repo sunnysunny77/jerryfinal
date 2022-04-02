@@ -78,6 +78,8 @@ main i {
 
 .top-bar {
   background-image: url(../images/template/washi.png);
+  background-repeat: no-repeat;
+  background-position: center right;
   background-color: #e1ca6f;
 }
 .top-bar .top-bar-right ul {
@@ -99,7 +101,6 @@ main i {
 }
 
 .title-bar {
-  background-image: url(../images/template/title-bar.png);
   background-color: #e1ca6f;
 }
 .title-bar .title-bar-title,
@@ -109,7 +110,6 @@ main i {
 
 footer {
   padding-top: 15px;
-  background-image: url(../images/template/washi.png);
   background-color: #e1ca6f;
   color: #2b241d;
 }
