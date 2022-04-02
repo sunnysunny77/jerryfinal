@@ -292,7 +292,7 @@ section .top-link i:hover, section .top-link i:focus {
   color: #e1ca6f;
 }
 section .gallery {
-  padding: 2.5rem 1rem;
+  padding: 2.5rem 1.5rem;
 }
 @media screen and (min-width: 40em) {
   section .gallery {
