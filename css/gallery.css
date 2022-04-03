@@ -239,7 +239,7 @@ footer::before {
 }
 @media screen and (min-width: 40em) and (min-width: 64em) {
   .tabs-content .tabs-panel.is-active::before {
-    right: calc(83.34% - 1rem);
+    right: 83.34%;
   }
 }
 
