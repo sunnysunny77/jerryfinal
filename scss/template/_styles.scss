@@ -16,7 +16,7 @@ body {
         opacity: 0.35;
         background-color: rgba($color3, 0.125);
         background-image: url(../images/template/body-mobile.jpg);
-        @include medium_and_up {
+        @include large_and_up {
             background-image: url(../images/template/body.jpg);
         }
         background-size: cover;
