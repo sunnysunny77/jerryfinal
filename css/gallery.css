@@ -20,7 +20,7 @@ body::before {
   left: 0;
   z-index: -999;
   background-blend-mode: screen;
-  opacity: 0.5;
+  opacity: 0.35;
   background-color: rgba(225, 202, 111, 0.125);
   background-image: url(../images/template/body-mobile.jpg);
   background-size: cover;
@@ -232,8 +232,7 @@ footer::before {
     right: 75%;
     bottom: 0;
     left: 0;
-    background-color: rgba(138, 138, 138, 0.35);
-    background-image: url(../images/template/paper.png);
+    background-image: url(../images/gallery/side-1.png);
     border-right: 1px solid #f8f8ff;
   }
 }
