@@ -2,13 +2,11 @@
 /* gallery */
 
 #fixed-img {
-  background-image: url("../images/gallery/fixed-m.png");
+  background-image: url("../images/gallery/fixed.png");
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: auto;
+  background-position: center center;
+  background-size: cover;
   @include large_and_up {
-    background-image: url("../images/gallery/fixed.png");
-    background-size: cover;
     background-attachment: fixed;
   }
   h2 {
@@ -18,7 +16,7 @@
       background-color: $white;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
-      @include setbox(null, null, null, 333px auto auto auto);
+      @include setbox(null, null, null, 447px auto auto auto);
     }
     @include large_and_up {
       @include setbox(null, null, null, calc(100vh - 178px) auto auto auto);

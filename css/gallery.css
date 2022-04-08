@@ -131,15 +131,13 @@ footer::before {
 
 /* gallery */
 #fixed-img {
-  background-image: url("../images/gallery/fixed-m.png");
+  background-image: url("../images/gallery/fixed.png");
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: auto;
+  background-position: center center;
+  background-size: cover;
 }
 @media screen and (min-width: 64em) {
   #fixed-img {
-    background-image: url("../images/gallery/fixed.png");
-    background-size: cover;
     background-attachment: fixed;
   }
 }
@@ -155,7 +153,7 @@ footer::before {
     background-color: #f8f8ff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin: 333px auto auto auto;
+    margin: 447px auto auto auto;
   }
 }
 @media screen and (min-width: 64em) {
