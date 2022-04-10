@@ -173,7 +173,7 @@ footer::before {
   color: #2b241d;
 }
 
-#main form input {
+#main form input, #main form textarea {
   background-image: url(../../images/template/paper.png);
 }
 #main form textarea {
