@@ -151,9 +151,14 @@ footer::before {
   padding: 1%;
 }
 .tabs li a h3 {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
+}
+@media screen and (min-width: 40em) {
+  .tabs li a h3 {
+    font-size: initial;
+  }
 }
 .tabs .tabs-title > a[aria-selected=true] {
   background-color: rgba(138, 138, 138, 0.1);

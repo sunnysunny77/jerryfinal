@@ -16,7 +16,10 @@ main a {
             
 
             h3 {
-                font-size: 16px;
+                font-size: 14px;
+				@include medium_and_up {
+					font-size: initial;
+				}
                 @include box();
                 @extend %link;
             }
