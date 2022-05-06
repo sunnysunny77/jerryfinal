@@ -1,13 +1,55 @@
 @import "variables";
 /* about */
 
-#stick-1 {
-    @include medium_and_up() {
-        @include box(null, 0 1rem 0 0 );
+.p-left,
+.p-right {
+    p {
+        @include medium_and_up {
+            @include setbox(null, null, 0 1rem 0 1rem, 0);
+        }
+    }
+    h3 {
+        @include medium_and_up {
+            @include setbox(null, null, 2rem 1rem 0 1rem, null);
+        }
     }
 }
 
-#stick-2  {
+.media-object {
+    @include medium_and_up() {
+        @include setbox(null, null, null, auto auto 50px auto);
+        box-shadow: 0 -1px rgba($color1, 0.1), 0 1px rgba($color1, 0.1);
+    }
+    .media-object-section:nth-child(1) img {
+        @include setbox(100%, null, null, null);
+        border-radius: 10px;
+    }
+    .media-object-section {
+        &:nth-child(2) {
+            @include setbox(null, null, 0, null);
+            @include medium_and_up() {
+                @include setbox(null, null, 1rem, 1rem);
+            }
+        }
+        &:nth-child(1) {
+            @include setbox(null, null, 0 2% 1rem 2%, null);
+            @include medium_and_up() {
+                @include setbox(null, null, 0 0 0 2rem, null);
+                @include large_and_up() {
+                    @include setbox(null, null, 3%, null);
+                }
+            }
+        }
+    }
+}
+
+#stick-1 {
+    @include medium_and_up() {
+        @include box(null, 0 1rem 0 0);
+    }
+}
+
+#stick-2 {
     @include medium_and_up() {
         @include box(null, 0 0 0 1rem);
     }
@@ -28,7 +70,7 @@
             @include setbox(77.859%, null, null, 1.5rem auto auto auto);
         }
     }
-    h3 {
+    h5 {
         font-size: 19.2px;
     }
 }
