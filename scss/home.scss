@@ -2,49 +2,48 @@
 /* home */
 
 #orbit-heading {
-    @include medium_and_up() {
-        @include setbox(null, null, 0 1rem, 50px auto 1rem auto);
-    }
-    @include g_container() {
-        @include setbox(1200px, null, null, null);
-    }
+  @include medium_and_up() {
+    @include setbox(null, null, 0 1rem, 50px auto 1rem auto);
+  }
+  @include g_container() {
+    @include setbox(1200px, null, null, null);
+  }
 }
 
 .orbit {
-    max-width: 1200px;
-    @include setbox(null, null, null, auto auto 1rem auto);
-    .orbit-container img {
-        max-height: 700px;
-    }
+  max-width: 1200px;
+  @include setbox(null, null, null, auto auto 1rem auto);
+  .orbit-container img {
+    max-height: 700px;
+  }
 }
 
 #tabs {
-    @include setbox(null, fit-content, null, null);
-    border-top: 1px solid $white;
-    @include large_and_up {
-      position: absolute;
-      z-index: 999;
-    }
-    li {
-      a {
-        background-color: lightShift($color3);
-        background-image: url(../images/template/paper.png);
-        background-blend-mode: screen;
-        outline: none;
-        @include setbox(100%, null, 0.2rem 0.5rem, 0);
-        h3 {
-          @include box();
-          font-size: 16px;
-          @include large_and_up {
-            font-size: 21.5px;
-          }
+  @include setbox(null, fit-content, null, null);
+  border-top: 1px solid $white;
+  @include large_and_up {
+    position: absolute;
+    z-index: 999;
+  }
+  li {
+    a {
+      background-color: lightShift($color3);
+      background-image: url(../images/template/paper.png);
+      background-blend-mode: screen;
+      outline: none;
+      @include setbox(100%, null, 0.2rem 0.5rem, 0);
+      h3 {
+        @include box();
+        font-size: 16px;
+        @include large_and_up {
+          font-size: 21.5px;
         }
-        .hover-underline-animation {
-          display: inline-block;
-          position: relative;
-        }
-        .hover-underline-animation:after {
-          content: '';
+      }
+      .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        &:after {
+          content: "";
           position: absolute;
           width: 100%;
           transform: scaleX(0);
@@ -55,108 +54,108 @@
           transform-origin: bottom right;
           transition: transform 0.25s ease-out;
         }
-        
-        .hover-underline-animation:hover:after {
+        &:hover:after,
+        &:focus:after {
           transform: scaleX(1);
           transform-origin: bottom left;
         }
       }
-      &:nth-child(1) a {
-        @include large_and_up {
-          border-bottom-left-radius: 10px;
-        }
-      }
-      &:nth-child(6) a {
-        @include large_and_up {
-          border-bottom-right-radius: 10px;
-        }
+    }
+    &:nth-child(1) a {
+      @include large_and_up {
+        border-bottom-left-radius: 10px;
       }
     }
-    .tabs-title.is-active a {
-      background-color: $color1;
-      background-image: none;
-      h3 {
-        color: $white;
+    &:nth-child(6) a {
+      @include large_and_up {
+        border-bottom-right-radius: 10px;
       }
     }
   }
-  
-  .tabs-content {
-    background-color: $transparent;
-    border: none;
+  .tabs-title.is-active a {
+    background-color: $color1;
+    background-image: none;
+    h3 {
+      color: $white;
+    }
+  }
+}
+
+.tabs-content {
+  background-color: $transparent;
+  border: none;
+  @include box();
+  .tabs-panel.is-active {
+    min-height: 79vh;
     @include box();
-    .tabs-panel.is-active {
-      min-height: 79vh;
-      @include box();
-      @include medium_and_up {
-        position: relative;
-        &::before {
-          position: absolute;
-          content: "";
-          top: 0;
-          right: 75%;
-          @include large_and_up {
-            right: 83.34%;
-          }
-          bottom: 0;
-          left: 0;
-          background-image: url(../images/gallery/side-1.png);
-          border-right: 1px solid $white;
-        }
-      }
-    }
-  }
-  
-  .sticky-ul {
-    background-image: url(../images/gallery/side.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top right;
-    color: $color1;
-    @include setbox(null,221px, 1rem 1rem 0 1rem, null);
-    font-size: 14.5px;
     @include medium_and_up {
-      position: sticky;
-      top: 0;
-    }
-    li {
-      a {
-        @include box();
-        @extend %link;
-      }
-      &.last {
-        font-size: 12.5px;
-        color: darkShift($color6);
-      }
-    }
-    .fi-list {
-      font-size: 11px;
-    }
-  }
-  
-  section {
-    h4 {
-      color: $color1;
-      @include box(1rem 2rem 0 0, null);
-    }
-    .top-link {
-      position: sticky;
-      top: 0;
-      @include box(0 2rem 0 0, null);
-      i {
-        font-size: medium;
-        color: $color4;
-        &:hover,
-        &:focus {
-          color: $color3;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 75%;
+        @include large_and_up {
+          right: 83.34%;
         }
-      }
-    }
-    .gallery {
-      @include box(null, 2.5rem);
-      @include medium_and_up {
-        @include box(null, 2.5rem 5rem);
+        bottom: 0;
+        left: 0;
+        background-image: url(../images/gallery/side-1.png);
+        border-right: 1px solid $white;
       }
     }
   }
-  
+}
+
+.sticky-ul {
+  background-image: url(../images/gallery/side.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: $color1;
+  @include setbox(null, 221px, 1rem 1rem 0 1rem, null);
+  font-size: 14.5px;
+  @include medium_and_up {
+    position: sticky;
+    top: 0;
+  }
+  li {
+    a {
+      @include box();
+      @extend %link;
+    }
+    &.last {
+      font-size: 12.5px;
+      color: darkShift($color6);
+    }
+  }
+  .fi-list {
+    font-size: 11px;
+  }
+}
+
+section {
+  h4 {
+    color: $color1;
+    @include box(1rem 2rem 0 0, null);
+  }
+  .top-link {
+    position: sticky;
+    top: 0;
+    @include box(0 2rem 0 0, null);
+    i {
+      font-size: medium;
+      color: $color4;
+      &:hover,
+      &:focus {
+        color: $color3;
+      }
+    }
+  }
+  .gallery {
+    @include box(null, 2.5rem);
+    @include medium_and_up {
+      @include box(null, 2.5rem 5rem);
+    }
+  }
+}
