@@ -4,6 +4,11 @@
 .hover {
   @include setbox(null, null, null, 1rem auto);
   box-shadow: 0 -1px rgba($color1, 0.1);
+  @include large_and_up {
+  @include setbox(null, null, null, 1rem auto 21vh auto);
+  box-shadow: 0 1px rgba($color1, 0.1), 0 -1px rgba($color1, 0.1);
+  }
+ 
   .hover-box {
     position: relative;
     display: inline-block;
@@ -85,7 +90,7 @@
 
 .tabs-content {
   background-color: $transparent;
-  box-shadow: 0 -1px rgba($color1, 0.25);
+  box-shadow: 0 -1px rgba($color1, 0.2);
   border: none;
   @include box();
   .tabs-panel.is-active {
@@ -104,7 +109,7 @@
         bottom: 0;
         left: 0;
         background-image: url(../images/home/side-1.png);
-        box-shadow: 1px 0 rgba($color1, 0.25);
+        box-shadow: 1px 0 rgba($color1, 0.2);
       }
     }
   }
