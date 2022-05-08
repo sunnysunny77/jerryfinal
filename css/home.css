@@ -204,16 +204,16 @@ footer::before {
   right: 0;
   z-index: 1;
 }
-.hover .hover-box:hover img {
+.hover .hover-box:hover img, .hover .hover-box:focus img {
   opacity: 1;
 }
-.hover .hover-box:hover:before, .hover .hover-box:hover:after {
+.hover .hover-box:hover:before, .hover .hover-box:hover:after, .hover .hover-box:focus:before, .hover .hover-box:focus:after {
   border-width: 10px;
 }
-.hover .hover-box:hover:before {
+.hover .hover-box:hover:before, .hover .hover-box:focus:before {
   transform: rotate(45deg);
 }
-.hover .hover-box:hover:after {
+.hover .hover-box:hover:after, .hover .hover-box:focus:after {
   transform: rotate(-45deg);
 }
 

@@ -72,17 +72,19 @@
       right: 0;
       z-index: 1;
     }
-    &:hover img {
+    &:hover img, &:focus img{
       opacity: 1;
     }
     &:hover:before,
-    &:hover:after {
+    &:hover:after,
+    &:focus:before,
+    &:focus:after {
       border-width: 10px;
     }
-    &:hover:before {
+    &:hover:before, &:focus:before {
       transform: rotate(45deg);
     }
-    &:hover:after {
+    &:hover:after, &:focus:after{
       transform: rotate(-45deg);
     }
   }
