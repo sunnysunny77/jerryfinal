@@ -1,7 +1,6 @@
 @import "variables";
 /* home */
 
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .hover {
   @include setbox(null, null, null, 1rem auto);
   box-shadow: 0 -1px rgba($color1, 0.1);
@@ -104,7 +103,7 @@
         }
         bottom: 0;
         left: 0;
-        background-image: url(../images/gallery/side-1.png);
+        background-image: url(../images/home/side-1.png);
         box-shadow: 1px 0 rgba($color1, 0.25);
       }
     }
@@ -112,7 +111,7 @@
 }
 
 .sticky-ul {
-  background-image: url(../images/gallery/side.png);
+  background-image: url(../images/home/side.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top right;
