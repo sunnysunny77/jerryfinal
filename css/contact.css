@@ -145,9 +145,12 @@ footer::before {
 /* contact */
 .tabs {
   background: transparent;
+  border: none;
+  padding: 0 0 1rem 0;
+  box-shadow: 0 1px rgba(43, 36, 29, 0.1);
 }
 .tabs li {
-  background-color: rgba(138, 138, 138, 0.05);
+  background-color: rgba(138, 138, 138, 0.1);
   background-image: url(../images/template/paper.png);
   background-blend-mode: screen;
 }
