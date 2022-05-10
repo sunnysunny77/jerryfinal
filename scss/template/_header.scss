@@ -21,6 +21,10 @@
     }
 }
 
+.color {
+    color: $color1;
+}
+
 .title-bar {
     background-image: url(../images/template/paper.png);
     background-blend-mode: screen;
@@ -35,3 +39,4 @@
         @include setbox(50px, 50px, null, null);
     }
 }
+
