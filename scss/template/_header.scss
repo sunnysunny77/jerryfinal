@@ -19,8 +19,7 @@
     .top-bar-left {
         #my-svg {
             display: inline-block;
-            height: 100px;
-            width: 235px;
+            @include setbox(235px, 100px, null, null);
         }
     }
 }
@@ -32,13 +31,11 @@
     font-size: 13px;
     .title-bar-title {
         color: $white;
-        height: 50px;
-        padding-top: 25px;
+        @include setbox(nill, 50px, 25px 0 0 0, null);
     }
     #my-svg-m {
         display: inline-block;
-        height: 50px;
-        width: 50px;
+        @include setbox(50px, 50px, null, null);
     }
 }
 
