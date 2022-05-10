@@ -4,6 +4,9 @@
     background-blend-mode: screen;
     .top-bar-right {
         animation: slideIn0 1s ease-in-out;
+        @include medium_and_up() {
+            animation: none;
+        }
         ul {
             background: $transparent;
             li a {
