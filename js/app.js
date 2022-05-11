@@ -2,7 +2,7 @@ $(document).foundation()
 new Vivus(
     "my-svg-m",
     {
-        duration: 200,
+        duration: 300,
         file: "./images/template/logo-m.svg",
     },
     null
@@ -10,7 +10,7 @@ new Vivus(
 new Vivus(
     "my-svg",
     {
-        duration: 200,
+        duration: 300,
         file: "./images/template/logo.svg",
     },
     null
