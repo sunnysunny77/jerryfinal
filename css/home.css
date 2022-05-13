@@ -231,7 +231,7 @@ footer #right {
 }
 @media screen and (min-width: 40em) {
   .hover .hover-box h3 {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 .hover .hover-box:hover img, .hover .hover-box:focus img {
@@ -287,11 +287,12 @@ footer #right {
   background-position: top right;
   color: #2b241d;
   padding: 1rem 1rem 0 1rem;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
 }
 @media screen and (min-width: 40em) {
   .sticky-ul {
+    font-size: 16px;
     height: 221px;
     padding: 1rem 1rem 0 1rem;
     position: sticky;
