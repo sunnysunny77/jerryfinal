@@ -18,11 +18,16 @@
   font-family: Montserrat-Regular;
   src: url("./Fonts/Montserrat-Regular.ttf");
 }
+@font-face {
+  font-family: arial-unicode-ms;
+  src: url("./Fonts/arial-unicode-ms.ttf");
+}
 /* template */
 body {
   max-width: 1920px;
   margin: auto;
   position: relative;
+  font-family: arial-unicode-ms;
 }
 body::before {
   position: absolute;
@@ -52,6 +57,7 @@ h1 {
   font-size: inherit;
   margin: 0;
   padding: 0;
+  font-family: arial-unicode-ms;
 }
 
 h2 {
@@ -70,6 +76,7 @@ h2 {
 h3,
 h4,
 h5 {
+  font-family: arial-unicode-ms;
   color: #493e32;
 }
 

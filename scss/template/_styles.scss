@@ -4,6 +4,7 @@ body {
     max-width: 1920px;
     @include setbox(null, null, null, auto);
     position: relative;
+    font-family: arial-unicode-ms;
     &::before {
         position: absolute;
         content: "";
@@ -30,6 +31,7 @@ body {
 h1 {
     font-size: inherit;
     @include box();
+    font-family: arial-unicode-ms;
 }
 
 h2 {
@@ -46,6 +48,7 @@ h2 {
 h3,
 h4,
 h5 {
+    font-family: arial-unicode-ms;
     color: darkShift($color1);
 }
 
