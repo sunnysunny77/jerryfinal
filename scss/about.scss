@@ -54,6 +54,9 @@
 .stick {
     position: sticky;
     top: 1rem;
+    @include large_and_up() {
+        top: 15rem;
+    }
 }
 
 #stick-1 {
