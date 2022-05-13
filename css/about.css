@@ -150,8 +150,15 @@ footer::before {
   background-position: center center;
   background-repeat: no-repeat;
 }
+footer #right {
+  font-size: smaller;
+}
 
 /* about */
+.fi-pencil {
+  margin: 0 0 1rem 0;
+}
+
 @media screen and (min-width: 40em) {
   .p-left p,
 .p-right p {

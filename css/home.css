@@ -157,6 +157,9 @@ footer::before {
   background-position: center center;
   background-repeat: no-repeat;
 }
+footer #right {
+  font-size: smaller;
+}
 
 /* home */
 .hover {
