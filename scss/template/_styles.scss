@@ -4,7 +4,7 @@ body {
     max-width: 1920px;
     @include setbox(null, null, null, auto);
     position: relative;
-    font-family: arial-unicode-ms;
+    font-family: ayar_takhu;
     &::before {
         position: absolute;
         content: "";
@@ -31,7 +31,7 @@ body {
 h1 {
     font-size: inherit;
     @include box();
-    font-family: arial-unicode-ms;
+    font-family: ayar_takhu;
 }
 
 h2 {
@@ -48,7 +48,7 @@ h2 {
 h3,
 h4,
 h5 {
-    font-family: arial-unicode-ms;
+    font-family: ayar_takhu;
     color: darkShift($color1);
 }
 
