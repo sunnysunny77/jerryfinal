@@ -46,7 +46,7 @@ h1 {
 
 h2 {
   margin: 1rem auto;
-  color: #493e32;
+  color: #463b2f;
   font-family: Montserrat-Regular;
   font-style: oblique;
   text-shadow: 0 0 2.5px #2b241d;
@@ -61,7 +61,7 @@ h3,
 h4,
 h5 {
   font-family: OpenSans-Regular;
-  color: #493e32;
+  color: #463b2f;
 }
 
 @media screen and (min-width: 40em) {
@@ -126,7 +126,7 @@ footer {
   background-image: url(../images/template/paper.png);
   background-blend-mode: screen;
   padding-top: 15px;
-  background-color: #d8ba45;
+  background-color: #d9bc49;
   color: #2b241d;
   position: relative;
   z-index: 1;
