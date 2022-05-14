@@ -17,7 +17,7 @@ $(document).ready(function() {
                     res.html(text);
                     sub.prop( "disabled", false );
                     form.trigger("reset");
-                }, 5000);
+                }, 9000);
             }
         });
     });
@@ -39,7 +39,7 @@ $(document).ready(function() {
                     res.html(text);
                     sub.prop( "disabled", false );
                     form.trigger("reset");
-                }, 5000);
+                }, 9000);
             }
         });
     });
@@ -61,7 +61,7 @@ $(document).ready(function() {
                     res.html(text);
                     sub.prop( "disabled", false );
                     form.trigger("reset");
-                }, 5000);
+                }, 9000);
             }
         });
     });
