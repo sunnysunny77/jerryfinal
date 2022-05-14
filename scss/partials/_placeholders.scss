@@ -1,7 +1,7 @@
 %link {
     color: lightShift($color5);
     &:hover, &:focus {
-        color: $color2;
+        color: lightShift($color2);
     }
 }
 
