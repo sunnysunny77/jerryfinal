@@ -16,13 +16,12 @@ main a {
         background-blend-mode: screen;
         a {
             @include box(null, 1%);
-            
 
             h3 {
                 font-size: 14px;
-				@include medium_and_up {
-					font-size: initial;
-				}
+                @include medium_and_up {
+                    font-size: initial;
+                }
                 @include box();
                 @extend %link;
             }
@@ -37,7 +36,7 @@ main a {
     background: $transparent;
     border: none;
     .is-active {
-    @include box(null, 1rem 0);
+        @include box(null, 1rem 0);
     }
     .button {
         @extend %button;
@@ -51,7 +50,8 @@ main a {
 }
 
 #main form {
-    input, textarea {
+    input,
+    textarea {
         background-image: url(../../images/template/paper.png);
     }
     textarea {
@@ -59,7 +59,7 @@ main a {
         overflow-y: scroll;
         overflow-x: hidden;
         scrollbar-color: $color3 rgba($color6, 0.25);
-        scrollbar-width: thin;  
+        scrollbar-width: thin;
         &::-webkit-scrollbar {
             @include setbox(7px, null, null, null);
         }

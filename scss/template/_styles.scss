@@ -53,7 +53,6 @@ h5 {
 }
 
 main {
-    //min-height: 72.5vh;
     @include medium_and_up() {
         > * {
             margin-bottom: 50px;
