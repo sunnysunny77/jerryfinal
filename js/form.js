@@ -13,9 +13,11 @@ $(document).ready(function() {
             success: function (response) {
                 const text = res.text();
                 res.html(response);
+                sub.val('Sent');
                 setTimeout(function (){
                     res.html(text);
                     sub.prop( "disabled", false );
+                    sub.val('Submit');
                     form.trigger("reset");
                 }, 9000);
             }
@@ -35,9 +37,11 @@ $(document).ready(function() {
             success: function (response) {
                 const text = res.text();
                 res.html(response);
+                sub.val('Sent');
                 setTimeout(function (){
                     res.html(text);
                     sub.prop( "disabled", false );
+                    sub.val('Submit');
                     form.trigger("reset");
                 }, 9000);
             }
@@ -57,9 +61,11 @@ $(document).ready(function() {
             success: function (response) {
                 const text = res.text();
                 res.html(response);
+                sub.val('Sent');
                 setTimeout(function (){
                     res.html(text);
                     sub.prop( "disabled", false );
+                    sub.val('Submit');
                     form.trigger("reset");
                 }, 9000);
             }
