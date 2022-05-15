@@ -54,6 +54,9 @@ main a {
     textarea {
         background-image: url(../../images/template/paper.png);
     }
+    input[type="submit"] {
+        @include setbox(80px, null,  null,  null);
+}
     input[type="submit"]:disabled {
         opacity: 1;
     }
