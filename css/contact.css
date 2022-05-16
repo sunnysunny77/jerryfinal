@@ -177,7 +177,7 @@ footer ul + ul {
   box-shadow: 0 1px rgba(43, 36, 29, 0.1);
 }
 .tabs li {
-  background-color: rgba(138, 138, 138, 0.1);
+  background-color: rgba(97, 97, 97, 0.1);
   background-image: url(../images/template/paper.png);
   background-blend-mode: screen;
 }
@@ -195,7 +195,7 @@ footer ul + ul {
   }
 }
 .tabs .tabs-title > a[aria-selected=true] {
-  background-color: rgba(138, 138, 138, 0.1);
+  background-color: rgba(97, 97, 97, 0.1);
 }
 
 .tabs-content {
@@ -226,7 +226,7 @@ footer ul + ul {
   appearance: auto;
   overflow-y: scroll;
   overflow-x: hidden;
-  scrollbar-color: #e1ca6f rgba(138, 138, 138, 0.25);
+  scrollbar-color: #e1ca6f rgba(97, 97, 97, 0.25);
   scrollbar-width: thin;
 }
 #main form textarea::-webkit-scrollbar {
@@ -236,11 +236,11 @@ footer ul + ul {
   background: #e1ca6f;
 }
 #main form textarea::-webkit-scrollbar-track {
-  background: rgba(138, 138, 138, 0.25);
+  background: rgba(97, 97, 97, 0.25);
 }
 blockquote,
 cite {
-  color: #6a6a6a;
+  color: #414141;
 }
 
 /*# sourceMappingURL=contact.css.map */
