@@ -1,11 +1,14 @@
 @import "variables";
 /* home */
+main > section {
+  @include setbox(null, null, null, auto);
+}
 
 .hover {
   @include setbox(null, null, null, 1rem auto);
   box-shadow: 0 -1px rgba($color1, 0.1);
   @include large_and_up {
-    @include setbox(null, null, null, 1rem auto 23vh auto);
+    @include setbox(null, null, null, 11.5vh auto 18vh auto);
     box-shadow: 0 1px rgba($color1, 0.1), 0 -1px rgba($color1, 0.1);
   }
   .tabs-title > a[aria-selected="true"],
