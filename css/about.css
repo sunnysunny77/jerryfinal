@@ -270,6 +270,7 @@ footer ul + ul.no-bullet {
 
 @media screen and (min-width: 40em) {
   #stick-1 {
+    box-sizing: border-box;
     padding: 0 1rem 0 0;
   }
 }
@@ -277,6 +278,7 @@ footer ul + ul.no-bullet {
 @media screen and (min-width: 40em) {
   #stick-2 {
     padding: 0 0 0 1rem;
+    box-sizing: border-box;
   }
 }
 
