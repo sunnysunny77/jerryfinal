@@ -214,7 +214,7 @@ footer ul + ul {
 
 #main form input,
 #main form textarea {
-  background-image: url(../../images/template/paper.png);
+  background-image: url(../images/template/paper.png);
 }
 #main form input[type=submit] {
   width: 80px;

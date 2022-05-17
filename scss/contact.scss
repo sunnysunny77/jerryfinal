@@ -52,7 +52,7 @@ main a {
 #main form {
     input,
     textarea {
-        background-image: url(../../images/template/paper.png);
+        background-image: url(../images/template/paper.png);
     }
     input[type="submit"] {
         @include setbox(80px, null,  null,  null);
