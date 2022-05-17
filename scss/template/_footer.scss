@@ -26,7 +26,15 @@ footer {
         background-position: center center;
         background-repeat: no-repeat;
     }
-    ul + ul {
+    > ul.no-bullet  {
+        @include x_large_and_up {
+            @include box(auto auto auto calc(50vw - 960px), null);
+        }
+    }
+    ul + ul.no-bullet {
         font-size: smaller;
+        @include x_large_and_up {
+            @include box(auto calc(50vw - 960px) auto auto, null);
+        }
     }
 }
