@@ -18,10 +18,7 @@ main a {
             @include box(null, 1%);
 
             h3 {
-                font-size: 14px;
-                @include medium_and_up {
-                    font-size: initial;
-                }
+                font-size: initial;
                 @include box();
                 @extend %link;
             }
@@ -55,8 +52,8 @@ main a {
         background-image: url(../images/template/paper.png);
     }
     input[type="submit"] {
-        @include setbox(80px, null,  null,  null);
-}
+        @include setbox(80px, null, null, null);
+    }
     input[type="submit"]:disabled {
         opacity: 1;
     }

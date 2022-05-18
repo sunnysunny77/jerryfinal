@@ -222,14 +222,9 @@ footer ul + ul.no-bullet {
   padding: 1%;
 }
 .tabs li a h3 {
-  font-size: 14px;
+  font-size: initial;
   margin: 0;
   padding: 0;
-}
-@media screen and (min-width: 40em) {
-  .tabs li a h3 {
-    font-size: initial;
-  }
 }
 .tabs .tabs-title > a[aria-selected=true] {
   background-color: rgba(97, 97, 97, 0.1);
