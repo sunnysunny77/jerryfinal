@@ -233,6 +233,7 @@ footer ul + ul.no-bullet {
 .tabs-content {
   background: transparent;
   border: none;
+  transition: none;
 }
 .tabs-content .is-active {
   padding: 1rem 0;
