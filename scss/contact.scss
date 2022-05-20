@@ -25,7 +25,7 @@ main a {
         }
     }
     .tabs-title > a[aria-selected="true"] {
-        background-color: rgba($color6, 0.1);
+        background: rgba($color6, 0.1);
     }
 }
 
