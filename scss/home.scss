@@ -137,7 +137,7 @@ main > section {
     position: sticky;
     top: 0;
   }
-  @include large_and_up { 
+  @include large_and_up {
     font-size: 19px;
   }
 
